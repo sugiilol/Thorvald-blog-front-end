@@ -1,3 +1,36 @@
-h1{
-    color: red;
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .navbar-left-part{
+        img{
+            width: 120px;
+        }
+    }   
+
+    .navbar-middle-part{
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            list-style: none;
+
+            li{
+                text-decoration: none;
+
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .navbar-right-part{
+        img{
+            width: 50px;
+        }
+    }
 }
