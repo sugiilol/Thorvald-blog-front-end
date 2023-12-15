@@ -18,25 +18,13 @@ export default function Navbar() {
                         <li><a href="#">Cuisine d'ailleurs</a></li>
                         <li><a href="#">Tutoriels</a></li>
                         <li><a href="#">Galerie</a></li>
-                        <li><a href="#">Contact</a></li>
-                        
+                        <li><a href="#">Contact</a></li>                      
                     </ul>
                 </div>
                 <div className='navbar-right-part'>
                     <a href="#"><img src={instaLogo} alt="drakkar-logo" /></a>
                 </div>
             </div>
-            
-            <div className='test'>
-
-            </div>
-            <div className='test'>
-
-            </div>
-            <div className='test'>
-
-            </div>
-
         </>
     )
 }
