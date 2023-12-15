@@ -22,7 +22,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className='navbar-right-part'>
-                    <a href="#"><img src={instaLogo} alt="drakkar-logo" /></a>
+                    {/* <a href="#"><img src={instaLogo} alt="insta-logo" /></a> */}
                 </div>
             </div>
         </>

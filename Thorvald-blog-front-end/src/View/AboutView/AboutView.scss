@@ -1,0 +1,33 @@
+.about-container{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3ebeb;
+    
+
+    h2{
+        margin-bottom: 50px;
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        &__left-part{
+            width: 500px;
+            font-size: 1.2em;
+        }
+        
+        &__right-part{
+            width: 400px;
+
+            img{
+                width: 350px;
+            }
+        }
+    }
+}
+
