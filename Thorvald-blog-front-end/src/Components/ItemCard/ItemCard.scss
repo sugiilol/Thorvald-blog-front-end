@@ -3,9 +3,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 5px 5px 5px rgb(214, 214, 214);
+    transition: 0.6s;
+
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        text-decoration: none;
+        color: black;
+    }
 
     img{
         width: 350px;
         height: 350px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
     }
+}
+
+.item-card-container:hover{
+    background-color: rgb(221, 221, 221);
+    box-shadow: 5px 5px 5px rgb(145, 145, 145);
 }
