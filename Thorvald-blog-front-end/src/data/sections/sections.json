@@ -1,3 +1,5 @@
+
+
 [
     {
         "id": 1,
@@ -5,7 +7,7 @@
         "title": "Destination de Voyage",
         "content": "Bienvenue à bord de mon odyssée gastronomique interstellaire ! \r\nDans cette fascinante rubrique, \"Cuisine d'ailleurs\", je vous invite à découvrir les délices uniques d'Astronia, ma planète natale. Parcourez avec moi les saveurs extraordinaires qui émanent des confins de la galaxie d'Astrumi, laissez-vous transporter vers des expériences gustatives inédites.\r\nChaque plat que je partage raconte une histoire, chaque bouchée est une invitation à explorer les délices de mon monde mystérieux.\r\nPréparez-vous à un festin sensoriel où la cuisine d'Astronia devient le pont vers des horizons inexplorés. \r\n\r\nBienvenue dans mon univers délicieux, bienvenue dans \"Cuisine d'ailleurs\" !",
         "link": "#",
-        "thumbnail": "#",
+        "thumbnail": "/voyage-thumbnail.png",
         "thumbnailAlt" : "voyage"
     },
     {
@@ -14,7 +16,7 @@
         "title": "Journal de bord",
         "content": "Bienvenue à bord de mon odyssée gastronomique interstellaire ! \r\nDans cette fascinante rubrique, \"Cuisine d'ailleurs\", je vous invite à découvrir les délices uniques d'Astronia, ma planète natale. Parcourez avec moi les saveurs extraordinaires qui émanent des confins de la galaxie d'Astrumi, laissez-vous transporter vers des expériences gustatives inédites.\r\nChaque plat que je partage raconte une histoire, chaque bouchée est une invitation à explorer les délices de mon monde mystérieux.\r\nPréparez-vous à un festin sensoriel où la cuisine d'Astronia devient le pont vers des horizons inexplorés. \r\n\r\nBienvenue dans mon univers délicieux, bienvenue dans \"Cuisine d'ailleurs\" !",
         "link": "#",
-        "thumbnail": "#",
+        "thumbnail": "/book-thumbnail.png",
         "thumbnailAlt" : "journal de bord"
     },
     {
@@ -23,7 +25,7 @@
         "title": "Ma vision de l'aventure",
         "content": "Bienvenue à bord de mon odyssée gastronomique interstellaire ! \r\nDans cette fascinante rubrique, \"Cuisine d'ailleurs\", je vous invite à découvrir les délices uniques d'Astronia, ma planète natale. Parcourez avec moi les saveurs extraordinaires qui émanent des confins de la galaxie d'Astrumi, laissez-vous transporter vers des expériences gustatives inédites.\r\nChaque plat que je partage raconte une histoire, chaque bouchée est une invitation à explorer les délices de mon monde mystérieux.\r\nPréparez-vous à un festin sensoriel où la cuisine d'Astronia devient le pont vers des horizons inexplorés. \r\n\r\nBienvenue dans mon univers délicieux, bienvenue dans \"Cuisine d'ailleurs\" !",
         "link": "#",
-        "thumbnail": "#",
+        "thumbnail": "/aventure-thumbnail.png",
         "thumbnailAlt" : "l'aventure"
     },
     {
@@ -32,7 +34,7 @@
         "title": "Cuisine d'ailleurs",
         "content": "Bienvenue à bord de mon odyssée gastronomique interstellaire ! \r\nDans cette fascinante rubrique, \"Cuisine d'ailleurs\", je vous invite à découvrir les délices uniques d'Astronia, ma planète natale. Parcourez avec moi les saveurs extraordinaires qui émanent des confins de la galaxie d'Astrumi, laissez-vous transporter vers des expériences gustatives inédites.\r\nChaque plat que je partage raconte une histoire, chaque bouchée est une invitation à explorer les délices de mon monde mystérieux.\r\nPréparez-vous à un festin sensoriel où la cuisine d'Astronia devient le pont vers des horizons inexplorés. \r\n\r\nBienvenue dans mon univers délicieux, bienvenue dans \"Cuisine d'ailleurs\" !",
         "link": "#",
-        "thumbnail": "/img/sections-thumbnail/poisson-thumbnail.png",
+        "thumbnail": "/poisson-thumbnail.png",
         "thumbnailAlt" : "plat de poisson"
     },
     {
@@ -41,7 +43,7 @@
         "title": "Mes tutoriels",
         "content": "Bienvenue à bord de mon odyssée gastronomique interstellaire ! \r\nDans cette fascinante rubrique, \"Cuisine d'ailleurs\", je vous invite à découvrir les délices uniques d'Astronia, ma planète natale. Parcourez avec moi les saveurs extraordinaires qui émanent des confins de la galaxie d'Astrumi, laissez-vous transporter vers des expériences gustatives inédites.\r\nChaque plat que je partage raconte une histoire, chaque bouchée est une invitation à explorer les délices de mon monde mystérieux.\r\nPréparez-vous à un festin sensoriel où la cuisine d'Astronia devient le pont vers des horizons inexplorés. \r\n\r\nBienvenue dans mon univers délicieux, bienvenue dans \"Cuisine d'ailleurs\" !",
         "link": "#",
-        "thumbnail": "#",
+        "thumbnail": "/hammer-thumbnail.png",
         "thumbnailAlt" : "tutoriels"
     }
 ]

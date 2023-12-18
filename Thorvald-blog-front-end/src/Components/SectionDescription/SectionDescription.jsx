@@ -1,8 +1,4 @@
 import './SectionDescription.scss'
-import poisson from './img/poisson-thumbnail.png'
-import hammer from './img/hammer-thumbnail.png'
-import voyage from './img/voyage-thumbnail.png'
-import book from './img/book-thumbnail.png'
 
 export default function SectionDescription(props) {
 
@@ -13,8 +9,7 @@ export default function SectionDescription(props) {
     return (
         <div className={classList.join(" ")}>
             <div className='section-description-img-part'>
-                {/* <img src={props.data.thumbnail} alt={props.data.thumbnailAlt} /> */}
-                <img src={voyage} alt={props.data.thumbnailAlt} />
+                <img src={props.data.thumbnail} alt={props.data.thumbnailAlt} />
             </div>
             <div className='section-description-text-part'>
                 <h2>{props.data.title}</h2>
