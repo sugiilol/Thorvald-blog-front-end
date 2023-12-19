@@ -15,4 +15,10 @@
         flex-direction: row;
         gap:50px;
     }
+
+    @media screen and (max-width: 1024px) {
+        .last-item-content{
+            flex-direction: column;
+        }
+    }
 }
