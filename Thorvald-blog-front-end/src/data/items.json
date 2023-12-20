@@ -15,7 +15,7 @@
         "title": "Mon deuxieme titre",
         "sub-title": "Mon deuxieme sous-titre",
         "content": "mon deuxieme contenu",
-        "planet": "Astronia",
+        "planet": "Sélénia",
         "pictures": [],
         "thumbnail": ""
     },
@@ -25,7 +25,7 @@
         "title": "Mon troisieme titre",
         "sub-title": "Mon troisieme sous-titre",
         "content": "mon troisieme contenu",
-        "planet": "Astronia",
+        "planet": "Pyrhéos",
         "pictures": [],
         "thumbnail": "" 
     },
@@ -35,7 +35,7 @@
         "title": "Mon quatrieme titre",
         "sub-title": "Mon quatrieme sous-titre",
         "content": "mon quatrieme contenu",
-        "planet": "Astronia",
+        "planet": "Aquaréa ",
         "pictures": [],
         "thumbnail": ""
     },
@@ -45,7 +45,7 @@
         "title": "Mon cinquieme titre",
         "sub-title": "Mon cinquieme sous-titre",
         "content": "mon cinquieme contenu",
-        "planet": "Astronia",
+        "planet": "Chrysalidia ",
         "pictures": [],
         "thumbnail": ""
     }

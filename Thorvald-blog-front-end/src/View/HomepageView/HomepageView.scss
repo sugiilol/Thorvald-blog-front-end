@@ -33,3 +33,10 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .homepage-container{
+        background-image: url('./img/drakkar-tablet-bg.jpg');
+        height: 720px;
+    }
+}

@@ -30,3 +30,31 @@
     background-color: rgb(221, 221, 221);
     box-shadow: 5px 5px 5px rgb(145, 145, 145);
 }
+
+@media screen and (max-width: 1200px) {
+    .item-card-container{
+
+        img{
+            width: 250px;
+            height: auto;
+        }
+
+        h2{
+            font-size: 1em;
+        }
+
+        span{
+            font-size: 0.8em;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .item-card-container{
+       
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+}
