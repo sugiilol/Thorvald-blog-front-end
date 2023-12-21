@@ -4,9 +4,10 @@ import instaLogo from './img/insta-Logo.png'
 
 
 export default function Navbar() {
+
     return (
         <>
-            <div className='navbar-container'>
+            <div className='navbar-container-desktop'>  
                 <div className='navbar-left-part'>
                     <a href="#"><img src={drakkarLogo} alt="drakkar-logo" /></a>
                 </div>
@@ -25,6 +26,16 @@ export default function Navbar() {
                     {/* <a href="#"><img src={instaLogo} alt="insta-logo" /></a> */}
                 </div>
             </div>
+            <div className='navbar-container-phone'>
+                <div className='navbar-burger-menu-phone'>
+                    <button>
+                        <span className="material-symbols-outlined">menu</span>
+                    </button>
+                </div>
+                <div className='navbar-logo-phone'>
+                    <a href="#"><img src={drakkarLogo} alt="drakkar-logo" /></a>
+                </div>              
+            </div>        
         </>
     )
 }
