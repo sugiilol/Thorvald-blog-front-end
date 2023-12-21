@@ -51,6 +51,14 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .section-description-container{
+
+        flex-direction: column;
+        gap:0px
+    }
+}
+
 // .img-left{
 //     flex-direction: row;
 // }

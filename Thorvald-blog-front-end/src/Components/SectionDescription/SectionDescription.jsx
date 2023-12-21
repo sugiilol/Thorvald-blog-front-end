@@ -2,8 +2,6 @@ import './SectionDescription.scss'
 
 export default function SectionDescription(props) {
 
-    console.log(props.data)
-
     const classList = ["section-description-container", props.class]
 
     return (

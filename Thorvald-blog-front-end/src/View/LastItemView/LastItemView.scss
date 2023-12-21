@@ -16,9 +16,9 @@
         gap:50px;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 900px) {
         .last-item-content{
-           
+           flex-direction: column;
         }
     }
 }
