@@ -1,41 +1,48 @@
 import './Navbar.scss'
+import { Link } from 'react-router-dom'
 import drakkarLogo from './img/logo-thorvald.svg'
-import instaLogo from './img/insta-Logo.png'
-
 
 export default function Navbar() {
 
+    const navbarLink = [
+        {
+            name: "HomePage",
+            link: "/"
+        },
+        {
+            name: "Voyages",
+            link: "/voyages"
+        }
+    ]
+
     return (
         <>
-            <div className='navbar-container-desktop'>  
+            <div className='navbar-container-desktop'>
                 <div className='navbar-left-part'>
-                    <a href="#"><img src={drakkarLogo} alt="drakkar-logo" /></a>
+                    <Link to={"/"}><img src={drakkarLogo} alt="drakkar-logo" /></Link>
                 </div>
                 <div className='navbar-middle-part'>
                     <ul>
-                        <li><a href="#">Voyages</a></li>
+                        <li><Link to={"voyages"}>Voyages</Link></li>
                         <li><a href="#">Journal de bord</a></li>
                         <li><a href="#">L'aventure</a></li>
                         <li><a href="#">Cuisine d'ailleurs</a></li>
                         <li><a href="#">Tutoriels</a></li>
                         <li><a href="#">Galerie</a></li>
-                        <li><a href="#">Contact</a></li>                      
+                        <li><a href="#">Contact</a></li>
                     </ul>
-                </div>
-                <div className='navbar-right-part'>
-                    {/* <a href="#"><img src={instaLogo} alt="insta-logo" /></a> */}
                 </div>
             </div>
             <div className='navbar-container-phone'>
                 <div className='navbar-burger-menu-phone'>
-                    <button>
+                    <button className='burger-menu'>
                         <span className="material-symbols-outlined">menu</span>
                     </button>
                 </div>
                 <div className='navbar-logo-phone'>
-                    <a href="#"><img src={drakkarLogo} alt="drakkar-logo" /></a>
-                </div>              
-            </div>        
+                    <Link to={"/"}><img src={drakkarLogo} alt="drakkar-logo" /></Link>
+                </div>
+            </div>
         </>
     )
 }

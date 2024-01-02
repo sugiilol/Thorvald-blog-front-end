@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "date": "3024-12-11T15:40:00.000Z",
+        "planet": "Astronia",
+        "title": "Bienvenue sur Atronia : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
+        "subTitle": "Explorez les Horizons Célestes de ma Planète d'origine où l'Espace Rencontre la Magie Nordique",
+        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
+        "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
+        "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
+        "pictures": [],
+        "thumbnail": "/thumbnail-generique.png",
+        "banner": "/img/imgTravels/bg1.png"
+    },
+    {
+        "id": 2,
+        "date": "3024-12-12T15:40:00.000Z",
+        "planet": "Sélénia",
+        "title": "Bienvenue sur Sélénia : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
+        "subTitle": "Mon deuxieme sous-titre",
+        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
+        "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
+        "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
+        "pictures": [],
+        "thumbnail": "/thumbnail-generique.png",
+        "banner": "/img/imgTravels/bg2.png"
+    },
+    {
+        "id": 3,
+        "date": "3024-12-13T15:40:00.000Z",
+        "planet": "Pyrhéos",
+        "title": "Bienvenue sur Pyrhéos : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
+        "subTitle": "Mon troisieme sous-titre",
+        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
+        "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
+        "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
+        "pictures": [],
+        "thumbnail": "/thumbnail-generique.png",
+        "banner": "/img/imgTravels/bg3.png"
+    },
+    {
+        "id": 4,
+        "date": "3024-12-14T15:40:00.000Z",
+        "planet": "Aquaréa ",
+        "title": "Bienvenue sur Aquaréa : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
+        "subTitle": "Mon quatrieme sous-titre",
+        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
+        "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
+        "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
+        "pictures": [],
+        "thumbnail": "/thumbnail-generique.png",
+        "banner": "/img/imgTravels/bg4.png"
+    },
+    {
+        "id": 5,
+        "date": "3024-12-15T15:40:00.000Z",
+        "planet": "Chrysalidia ",
+        "title": "Bienvenue sur Chrysalidia : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
+        "subTitle": "Mon cinquieme sous-titre",
+        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
+        "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
+        "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
+        "pictures": [],
+        "thumbnail": "/thumbnail-generique.png",
+        "banner": "/img/imgTravels/bg1.png"
+    }
+]

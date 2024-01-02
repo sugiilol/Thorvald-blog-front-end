@@ -9,12 +9,11 @@ export default function SectionDescriptionView() {
         <div className='section-description-view-container'>
             <h2>Rubriques du Blog en détail</h2>
             {sectionsDatas.map((section, index) => {
+                const imgPosition = index % 2 === 0 ? "img-left" : "img-right";
                 return (
-                    <SectionDescription key={index} class="img-left" data={section} />
+                    <SectionDescription key={index} class={imgPosition} data={section} />
                 )
             })}
-            {/* <SectionDescription class="img-left" />
-            <SectionDescription class="img-right" /> */}
         </div>
     )
 }

@@ -8,6 +8,16 @@
     background-color: rgb(221, 221, 221);
     box-shadow: 5px 5px 5px rgb(214, 214, 214);
     transition: 0.6s;
+    width: 350px;
+    height: 450px;
+
+    h2{
+        font-size: 1em;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 15px;
+    }
 
     a{
         display: flex;
@@ -34,6 +44,9 @@
 @media screen and (max-width: 1200px) {
     .item-card-container{
 
+        width: 250px;
+        height: 360px;
+
         img{
             width: 250px;
             height: auto;
@@ -51,6 +64,9 @@
 
 @media screen and (max-width: 1024px) {
     .item-card-container{
+
+        width: 200px;
+        height: 340px;
        
         img{
             width: 200px;
@@ -62,6 +78,9 @@
 @media screen and (max-width: 900px) {
     .item-card-container{
        
+        width: 350px;
+        height: 450px;
+
         img{
             width: 350px;
             height: auto;

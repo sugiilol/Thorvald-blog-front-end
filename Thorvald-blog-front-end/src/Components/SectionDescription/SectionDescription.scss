@@ -1,22 +1,23 @@
-.section-description-container{
+.section-description-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
     width: 1000px;
     padding-bottom: 100px;
+
     img {
         height: 350px;
         width: 500px;
     }
 
-    .section-description-text-part{
+    .section-description-text-part {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        .button-section-description{
+        .button-section-description {
             background-color: rgb(221, 221, 221);
             color: black;
             text-decoration: none;
@@ -25,26 +26,26 @@
             transition: 0.6s;
             box-shadow: 1px 1px 1px rgb(214, 214, 214);
         }
-    
-        .button-section-description:hover{
+
+        .button-section-description:hover {
             background-color: rgb(199, 199, 199);
             box-shadow: 1px 1px 1px rgb(145, 145, 145);
         }
-    }  
+    }
 }
 
 @media screen and (max-width: 1100px) {
-    .section-description-container{
+    .section-description-container {
 
         width: 500px;
         padding-bottom: 50px;
-        
-        img{
+
+        img {
             width: 400px;
             height: auto;
         }
 
-        p{
+        p {
             width: 400px;
             font-family: 1em;
         }
@@ -52,17 +53,17 @@
 }
 
 @media screen and (max-width: 900px) {
-    .section-description-container{
+    .section-description-container {
 
-        flex-direction: column;
-        gap:0px
+        flex-direction: column !important;
+        gap: 0px
     }
 }
 
-// .img-left{
-//     flex-direction: row;
-// }
+.img-left {
+    flex-direction: row;
+}
 
-// .img-right{
-//     flex-direction: row-reverse;
-// }
+.img-right {
+    flex-direction: row-reverse;
+}
