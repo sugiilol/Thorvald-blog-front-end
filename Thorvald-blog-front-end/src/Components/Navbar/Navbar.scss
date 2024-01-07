@@ -1,10 +1,10 @@
-.navbar-container-phone{
+.navbar-container-phone {
     display: none;
 }
 
-.navbar-container-desktop{
-    position: absolute;
-    top:0;
+.navbar-container-desktop {
+    position: block;
+    top: 0;
     left: 0;
     width: 100%;
     display: flex;
@@ -13,14 +13,14 @@
     justify-content: space-evenly;
     background-color: transparent;
 
-    .navbar-left-part{
-        img{
+    .navbar-left-part {
+        img {
             height: 70px;
         }
-    }   
+    }
 
-    .navbar-middle-part{
-        ul{
+    .navbar-middle-part {
+        ul {
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -28,22 +28,22 @@
             padding-left: 0px;
             list-style: none;
 
-            li{
+            li {
                 text-decoration: none;
 
-                a{
+                a {
                     text-decoration: none;
                     font-size: 1.1em;
                     font-weight: 700;
                     color: black;
-                    transition : 1s
+                    transition: 1s
                 }
             }
         }
     }
 
-    .navbar-right-part{
-        img{
+    .navbar-right-part {
+        img {
             width: 50px;
         }
     }
@@ -58,41 +58,41 @@
     height: 1000px;
 }
 
-@media (max-width: 750px){
-    .navbar-container-desktop{
+@media (max-width: 750px) {
+    .navbar-container-desktop {
         display: none;
     }
 
-    .navbar-container-phone{
-        position: absolute;
-        top:0;
+    .navbar-container-phone {
+        position: block;
+        top: 0;
         left: 0;
-        display: flex!important;
+        display: flex !important;
         flex-direction: row;
         align-items: center;
-        justify-content:flex-start;
+        justify-content: flex-start;
         background-color: transparent;
         padding-left: 50px;
 
-        .navbar-burger-menu-phone{
-            .burger-menu{   
+        .navbar-burger-menu-phone {
+            .burger-menu {
                 background-color: transparent;
                 width: 40px;
                 height: 40px;
-                border:none ;
-                border-radius: 5px;   
-                transition: 1s;        
+                border: none;
+                border-radius: 5px;
+                transition: 1s;
             }
-            .burger-menu:hover{
+
+            .burger-menu:hover {
                 background-color: rgba(255, 255, 255, 0.384);
             }
         }
 
-        .navbar-logo-phone{
-            img{
+        .navbar-logo-phone {
+            img {
                 height: 70px;
             }
         }
     }
 }
-

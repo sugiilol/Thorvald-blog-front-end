@@ -1,11 +1,9 @@
-import './HomepageView.scss'
-import Navbar from "../../Components/Navbar/Navbar"
+import './FirstHomeBgView.scss'
 
-export default function HomepageView() {
+export default function FirstHomeBgView() {
     return (
         
-            <div className='homepage-container'>     
-                <Navbar />         
+            <div className='FirstHomeBgView-container'>             
                     <button className='rocket-button'>
                         <span className="material-symbols-outlined">rocket_launch</span>
                     </button>               

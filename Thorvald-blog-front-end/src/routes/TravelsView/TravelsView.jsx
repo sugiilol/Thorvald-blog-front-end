@@ -2,42 +2,41 @@ import "./TravelsView.scss"
 import Navbar from "../../Components/Navbar/Navbar"
 import planetsList from "../../data/planetsList/planetsList.json"
 import ItemCard from "../../Components/ItemCard/ItemCard"
+import Footer from "../../Components/Footer/Footer"
 
 console.log(planetsList)
 
 export default function TravelsView() {
     return (
         <>
-            <Navbar />
-            <div className="travels-view-container">
-                
+            <div className="travels-view-banner">
+
             </div>
             <div className="travels-content-description">
-                <h1>Destination de Voyage</h1>               
-                L'aventure, c'est le souffle même qui anime mes jours dans la galaxie d'Astrumis. 
-                C'est l'excitation qui étreint mon cœur lorsque je m'élance vers les étoiles, 
-                l'émerveillement à chaque rencontre avec une planète inexplorée. 
-                Là où les cartes célestes se terminent, mon voyage commence, car l'aventure est 
-                bien plus qu'une destination, c'est une quête infinie vers la découverte, 
+                <h1>Destination de Voyage</h1>
+                L'aventure, c'est le souffle même qui anime mes jours dans la galaxie d'Astrumis.
+                C'est l'excitation qui étreint mon cœur lorsque je m'élance vers les étoiles,
+                l'émerveillement à chaque rencontre avec une planète inexplorée.
+                Là où les cartes célestes se terminent, mon voyage commence, car l'aventure est
+                bien plus qu'une destination, c'est une quête infinie vers la découverte,
                 la compréhension et la redéfinition constante de ce que signifie être un explorateur
-                 de l'espace. L'aventure, c'est mon hymne intergalactique, une mélodie dont la 
-                 cadence s'accorde aux pulsations du cœur de l'univers.
+                de l'espace. L'aventure, c'est mon hymne intergalactique, une mélodie dont la
+                cadence s'accorde aux pulsations du cœur de l'univers.
             </div>
-            <div className="card-travels-list">
+            <div className="grid-wrapper card-travels-list">
                 {planetsList.map((planet, index) => {
-                    return(
-                        <ItemCard 
-                            key={index} 
-                            date={planet.date} 
+                    return (
+                        <ItemCard
+                            class='grid-item'
+                            key={index}
+                            date={planet.date}
                             thumbnail={planet.thumbnail}
-                            title={planet.title} 
-                            planet= {planet.planet}
+                            title={planet.title}
+                            planet={planet.planet}
                         />
                     )
                 })}
             </div>
-
         </>
-
     )
 }

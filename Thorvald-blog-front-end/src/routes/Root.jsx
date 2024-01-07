@@ -1,28 +1,20 @@
-import HomepageView from '../View/HomePageView/HomePageView'
-import AboutView from '../View/AboutView/AboutView'
-import LastItemView from '../View/LastItemView/LastItemView'
+import { Outlet } from 'react-router-dom'
 import Footer from '../Components/Footer/Footer'
-import SectionDescriptionView from '../View/SectionDescriptionView/SectionDescriptionView'
+import Navbar from '../Components/Navbar/Navbar'
 
 export default function Root() {
 
     return (
         <>
-            <section>
-                <HomepageView />
-            </section>
-            <section>
-                <AboutView />
-            </section>
-            <section>
-                <LastItemView />
-            </section>
-            <section>
-                <SectionDescriptionView />
-            </section>
-            <footer>
-                <Footer />
-            </footer>
+        <nav>
+             <Navbar />
+        </nav>
+       <section>
+            <Outlet />
+       </section>
+        <footer>
+            <Footer />
+        </footer>
         </>
     )
 }

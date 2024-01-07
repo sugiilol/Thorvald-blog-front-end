@@ -1,11 +1,11 @@
-.travels-view-container {
+.travels-view-banner {
     background-image: url("/img/imgsTravels/bg4-1920500.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
     margin: 0;
     padding: 0;
-    margin-top: 140px;
+
 }
 
 .travels-content-description{
@@ -13,17 +13,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top:20px;
-    padding-bottom: 100px;
+    padding-top:40px;
+    padding-bottom: 50px;
     padding-left: 400px;
     padding-right: 400px;
 }
 
-.card-travels-list{
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+.grid-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    .grid-item{
+        align-self: center;
+        justify-self: center;
+    }
 }
+
+// .card-travels-list{
+//     padding: 20px;
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+//     gap: 15px;
+// }
