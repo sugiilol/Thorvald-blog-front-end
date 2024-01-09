@@ -19,13 +19,19 @@ const router = createBrowserRouter([
         element: <HomePageView />
       },
       {
-        path: "/voyages",
+        path: "voyages",
         element: <TravelsView />,
+        children: [
+          {
+            path: ":travelId",
+            element: <TravelView />,
+            loader :  async () => {
+              return fetch('./data/planetsList/planetsList.json')
+            }
+          }
+        ]
       },
-      {
-        path: "/voyages/:travelId",
-        element: <TravelsView />,
-      }
+      
     ]
   }
 ])
