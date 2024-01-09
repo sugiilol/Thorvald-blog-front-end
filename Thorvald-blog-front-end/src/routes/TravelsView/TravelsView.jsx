@@ -3,8 +3,6 @@ import planetsList from "../../data/planetsList/planetsList.json"
 import ItemCard from "../../Components/ItemCard/ItemCard"
 import { Link } from "react-router-dom"
 
-console.log(planetsList)
-
 export default function TravelsView() {
     return (
         <>
@@ -25,7 +23,7 @@ export default function TravelsView() {
             <div className="grid-wrapper card-travels-list">
                 {planetsList.map((planet, index) => {
                     return (
-                        <Link to={`/voyages/`+ planet.id}>
+                        <Link to={`/voyages/` + planet.id} key={index}>
                             <ItemCard
                                 class='grid-item'
                                 key={index}
@@ -35,7 +33,6 @@ export default function TravelsView() {
                                 planet={planet.planet}
                             />
                         </Link>
-
                     )
                 })}
             </div>

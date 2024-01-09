@@ -21,12 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/voyages",
         element: <TravelsView />,
-        children: [
-          {
-            path: "/voyages/",
-            element: <TravelView />
-          }
-        ]
+      },
+      {
+        path: "/voyages/:travelId",
+        element: <TravelsView />,
       }
     ]
   }
