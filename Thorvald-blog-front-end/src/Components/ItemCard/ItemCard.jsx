@@ -7,12 +7,10 @@ export default function ItemCard(props) {
     classList.push(props.class)
 
     return (
-        <div className={classList.join(' ')}>
-            <a href="#">
+        <div className={classList.join(' ')}>       
                 <img src={props.thumbnail} alt="fjord-thumb" />
                 <h2>{props.title}</h2>
-                <span>Le {date} sur {props.planet}</span>
-            </a>
+                <span>Le {date} sur {props.planet}</span>          
         </div>
     )
 }

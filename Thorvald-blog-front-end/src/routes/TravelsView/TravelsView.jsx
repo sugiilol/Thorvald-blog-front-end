@@ -1,8 +1,7 @@
 import "./TravelsView.scss"
-import Navbar from "../../Components/Navbar/Navbar"
 import planetsList from "../../data/planetsList/planetsList.json"
 import ItemCard from "../../Components/ItemCard/ItemCard"
-import Footer from "../../Components/Footer/Footer"
+import { Link } from "react-router-dom"
 
 console.log(planetsList)
 
@@ -26,14 +25,17 @@ export default function TravelsView() {
             <div className="grid-wrapper card-travels-list">
                 {planetsList.map((planet, index) => {
                     return (
-                        <ItemCard
-                            class='grid-item'
-                            key={index}
-                            date={planet.date}
-                            thumbnail={planet.thumbnail}
-                            title={planet.title}
-                            planet={planet.planet}
-                        />
+                        <Link to={`/voyages/`+ planet.id}>
+                            <ItemCard
+                                class='grid-item'
+                                key={index}
+                                date={planet.date}
+                                thumbnail={planet.thumbnail}
+                                title={planet.title}
+                                planet={planet.planet}
+                            />
+                        </Link>
+
                     )
                 })}
             </div>
