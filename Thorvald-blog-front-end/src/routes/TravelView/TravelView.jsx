@@ -1,19 +1,16 @@
 import "./TravelView.scss"
 
-import {
-    Outlet,
-    Link,
-    useLoaderData,
-  } from "react-router-dom";
+import {useLoaderData,} from "react-router-dom";
 
 export default function TravelView() {
 
-    const {travels} = useLoaderData();
-    console.log(useLoaderData())
+    const travels = useLoaderData();
+    console.log(travels)
 
     return (
         <>
-            <h2>bienvenue</h2>
+            <h2>bienvenue sur {travels[0].planet}</h2>
+            <p>{travels[0].title}</p>
         </>
     )
 }

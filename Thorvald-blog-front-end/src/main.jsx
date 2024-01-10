@@ -7,6 +7,7 @@ import Root from "./routes/root";
 import TravelsView from './routes/TravelsView/TravelsView.jsx'
 import HomePageView from './routes/HomePageView/HomePageView.jsx'
 import TravelView from './routes/TravelView/TravelView.jsx'
+import travelsList from "./data/planetsList/planetsList.json"
 
 const router = createBrowserRouter([
   {
@@ -25,13 +26,13 @@ const router = createBrowserRouter([
           {
             path: ":travelId",
             element: <TravelView />,
-            loader :  async () => {
-              return fetch('./data/planetsList/planetsList.json')
+            loader :  ({ params }) => {
+              const travelById =  travelsList.filter((travel) => travel.id == params.travelId)
+              return travelById
             }
           }
         ]
-      },
-      
+      } 
     ]
   }
 ])
