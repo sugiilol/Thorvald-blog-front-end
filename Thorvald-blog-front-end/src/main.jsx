@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider, } from "react-router-dom"
 import ErrorPage from "./ErrorPage.jsx"
 import './index.css'
 import Root from "./routes/root";
+import TravelsViewTemplate from "./routes/TravelsViewTemplate/TravelsViewTemplate.jsx"
 import TravelsView from './routes/TravelsView/TravelsView.jsx'
 import HomePageView from './routes/HomePageView/HomePageView.jsx'
 import TravelView from './routes/TravelView/TravelView.jsx'
@@ -21,8 +22,12 @@ const router = createBrowserRouter([
       },
       {
         path: "voyages",
-        element: <TravelsView />,
+        element: <TravelsViewTemplate />,
         children: [
+          {
+            index:true,
+            element: <TravelsView />,
+          },
           {
             path: ":travelId",
             element: <TravelView />,

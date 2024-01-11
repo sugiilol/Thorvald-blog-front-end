@@ -4,12 +4,17 @@ import {useLoaderData,} from "react-router-dom";
 
 export default function TravelView() {
 
-    const travels = useLoaderData();
     
+
+    const travel = useLoaderData();
+    console.log(travel[0].banner)
     return (
-        <>
-            <h2>bienvenue sur {travels[0].planet}</h2>
-            <p>{travels[0].title}</p>
-        </>
+        <div className="travelView-container">  
+            <div className="travelView-banner">
+                <img src={travel[0].banner} alt="travel-landscape" />
+            </div>
+            <h2>bienvenue sur {travel[0].planet}</h2>
+            <p>{travel[0].title}</p>
+        </div>    
     )
 }
