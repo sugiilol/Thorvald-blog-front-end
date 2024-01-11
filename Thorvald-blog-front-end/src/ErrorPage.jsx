@@ -9,9 +9,8 @@ export default function ErrorPage() {
     return (
         <>
             <Navbar />
-            <p>
-                <i>{error.statusText || error.message}</i>
-            </p>
+            <h1>hé ho fait pas bordel !</h1>
+            <p><i>{error.statusText || error.message}</i></p>
         </>
     )
 }

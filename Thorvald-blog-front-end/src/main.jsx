@@ -26,19 +26,18 @@ const router = createBrowserRouter([
           {
             path: ":travelId",
             element: <TravelView />,
-            loader :  ({ params }) => {
-              const travelById =  travelsList.filter((travel) => travel.id == params.travelId)
+            loader: ({ params }) => {
+              const travelById = travelsList.filter((travel) => travel.id == params.travelId)
+              console.log(travelById)
               return travelById
             }
           }
         ]
-      } 
+      }
     ]
   }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>,
+  <RouterProvider router={router} />
 )
