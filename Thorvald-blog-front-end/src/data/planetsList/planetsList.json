@@ -11,7 +11,7 @@
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "bg1.png"
+        "banner": "/img/imgsTravels/bg1-1920500.png"
     },
     {
         "id": 2,
@@ -25,7 +25,7 @@
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgTravels/bg2.png"
+        "banner": "/img/imgsTravels/bg2-1920500.png"
     },
     {
         "id": 3,
@@ -39,7 +39,7 @@
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgTravels/bg3.png"
+        "banner": "/img/imgsTravels/bg3-1920500.png"
     },
     {
         "id": 4,
@@ -53,7 +53,7 @@
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgTravels/bg4.png"
+        "banner": "/img/imgsTravels/bg4-1920500.png"
     },
     {
         "id": 5,
@@ -67,6 +67,6 @@
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgTravels/bg1.png"
+        "banner": "/img/imgsTravels/bg5-1920500.png"
     }
 ]

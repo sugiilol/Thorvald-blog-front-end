@@ -1,0 +1,38 @@
+.travelView-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .travelView-banner{
+        height: 500px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .travelView-content{
+        .travelView-content-top-part{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 10vw;
+            padding-right: 10vw;
+
+            h1, h2{
+                text-align: center;
+            }
+        }
+        .travelView-content-middle-part{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 15vw;
+            padding-right: 15vw;
+            text-align: center;
+        }
+    }
+}
