@@ -1,6 +1,5 @@
 import "./TravelView.scss"
-
-import {useLoaderData,} from "react-router-dom";
+import { useLoaderData, } from "react-router-dom";
 
 export default function TravelView() {
 

@@ -1,38 +1,28 @@
-.travelView-container{
+.travelView-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
-    .travelView-banner{
-        height: 500px;
+    .travelView-banner {
         width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        height: 500px;
+        background-color: blue;
     }
 
-    .travelView-content{
-        .travelView-content-top-part{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding-left: 10vw;
-            padding-right: 10vw;
+    .travelView-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-            h1, h2{
-                text-align: center;
-            }
+        h1 {
+            font-size: 2vw;
+            margin-bottom: 5px;
         }
-        .travelView-content-middle-part{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding-left: 15vw;
-            padding-right: 15vw;
-            text-align: center;
+
+        h2 {
+            font-size: 1.5vw;
         }
     }
 }
