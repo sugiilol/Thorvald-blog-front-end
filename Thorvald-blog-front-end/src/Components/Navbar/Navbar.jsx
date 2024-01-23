@@ -23,8 +23,8 @@ export default function Navbar() {
                 </div>
                 <div className='navbar-middle-part'>
                     <ul>
+                        <li><Link to={"/"}>Accueil</Link></li>
                         <li><Link to={"voyages"}>Voyages</Link></li>
-                        <li><a href="#">Journal de bord</a></li>
                         <li><a href="#">L'aventure</a></li>
                         <li><a href="#">Cuisine d'ailleurs</a></li>
                         <li><a href="#">Tutoriels</a></li>

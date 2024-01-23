@@ -16,7 +16,7 @@ export default function TravelView() {
                     <h2>{travel[0].subTitle}</h2>
                 </div>
                 <div className="travelView-content-middle-part">
-                    {travel[0].presentationPlanetContent}
+                    <p>{travel[0].presentationPlanetContent}</p>
                 </div>            
             </div>
         </div>    
