@@ -19,18 +19,22 @@
         margin-left: 10vw;
         margin-right: 10vw;
 
-        h1 {  
+        .travelView-content-top-part{
+           h1 {  
             margin-bottom: 5px;
             text-align: center;
             font-size: 2em;
-        }   
-        h2{
+            }   
+            h2{
+                text-align: center;
+                font-size: 1.3em;
+            } 
+        }
+
+        .travelView-content-middle-part{
+            max-width: 750px;
             text-align: center;
-            font-size: 1.3em;
-        } 
-        p{
-            text-align: center;
-            font-size: 1.1em;
+            font-size: 1.2em;
         }
     }
 }
