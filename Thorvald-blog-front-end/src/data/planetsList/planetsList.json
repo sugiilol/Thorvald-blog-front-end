@@ -5,13 +5,61 @@
         "planet": "Astronia",
         "title": "Bienvenue sur Atronia : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
         "subTitle": "Explorez les Horizons Célestes de ma Planète d'origine où l'Espace Rencontre la Magie Nordique",
-        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
-        "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
+        "titlePresentation" : "Astronia : Le Joyau Glacial des Cieux",
+        "presentationPlanetContent1": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Astronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "presentationPlanetContent2": "Astronia, berceau de Thorvald Astraforge, émerge majestueusement au sein de la galaxie d'Astrumis, une planète façonnée par l'héritage nordique et la mythologie scandinave. Ses vastes territoires sont dominés par des paysages enchanteurs, où la glace éternelle s'étend à perte de vue, entrelaçant des forêts glacées et des montagnes figées.",
+        "presentationPlanetContent3": "Les sommets enneigés s'élèvent comme des sentinelles vers le ciel, reflétant la grandeur des montagnes nordiques, tandis que des aurores boréales dansent harmonieusement dans les cieux étoilés. Cette symphonie de lumières célestes illumine Astronia, créant des tableaux magiques qui évoquent les récits mythologiques de l'ancien Nord.",
+        "presentationPlanetContent4": "La technologie avancée qui prospère sur Astronia dépasse de loin celle de la Terre, mettant en avant une ingéniosité harmonieuse avec la nature. Les énergies propres et durables propulsent la société astronienne, faisant de cette planète un modèle de coexistence entre progrès technologique et respect de l'environnement.",
+        "presentationPlanetContent5": "Les forêts glacées, où les arbres étincellent comme des joyaux gelés, abritent une faune et une flore adaptées à cet écosystème unique. Astronia, véritable joyau glacial des cieux, dévoile un mariage exquis entre la froide majesté nordique et une civilisation avancée, offrant à Thorvald Astraforge une patrie éblouissante et pleine de mystères." ,
+        "landscapeContent": "Astronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
         "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgsTravels/bg1-1920500.png"
+        "banner": "/img/imgsTravels/bg1-1920500.png",
+        "faune": [
+            {
+                "name" : "Flamelion",
+                "title" : "Le Flamelion, petit animal mystique au caractère bien trempé.",
+                "description1": "La particularité la plus remarquable du Flamelion réside dans son pelage, qui semble constamment scintiller comme des flammes douces. Cette caractéristique unique est le résultat de réactions chimiques spécifiques à son environnement, créant une lueur chaleureuse et hypnotique.",
+                "description2":"Bien que sa taille suggère une possible domestication, le Flamelion reste notoirement difficile à apprivoiser, voire impossible pour la plupart. Sa personnalité têtue et indépendante contraste avec son apparence douce.",
+                "description3" : "En ce qui concerne la reproduction, le Flamelion réserve un spectacle extraordinaire. Une fois par an, lors d'une période fantastique marquée par des aurores boréales pyrénéennes, ces créatures s'engagent dans un rituel de reproduction unique, éclairant le ciel de Pyrhéos de leurs flammes vibrantes. Ce phénomène magique est à la fois majestueux et éphémère, ajoutant un aspect enchanté à la vie de ces créatures extraordinaires sur la planète flamboyante de Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Furiasis",
+                "title" : "Le Furiasis, la force tranquille de la forêt.",
+                "description1": "Au cœur des forêts luxuriantes de Pyrhéos, le Furiasis règne en maître, une version plus douce du redoutable Pyroclaw. Sa fourrure d'un brun apaisant offre une apparence moins intimidante que celle de son homologue volcanique, soulignant sa nature essentiellement pacifique. Naviguant avec agilité à travers le feuillage, le Furiasis se nourrit principalement de fruits, révélant son adaptation à un environnement forestier florissant.",
+                "description2":"Bien que sa nature soit généralement paisible, le Furiasis devient un gardien intraitable envers ses petits. La fureur maternelle se déchaîne si quelqu'un ose s'approcher de ses progénitures, démontrant une détermination à protéger sa famille. Cette dualité entre douceur et défense féroce fait du Furiasis une créature exceptionnelle, symbole de l'équilibre délicat entre la quiétude forestière et l'instinct de protection intense.",
+                "description3" : "Les occasions de voir le Furiasis se nourrir de viande sont rares, mais sa capacité à s'adapter à différents régimes alimentaires reflète la diversité et la résilience des écosystèmes de Pyrhéos. Cette créature enchante les observateurs avec sa grâce forestière et son rôle vital dans l'équilibre de ces écosystèmes foisonnants.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Pyroclaw",
+                "title" : "Le Pyroclaw, le mastodonte volcanique.",
+                "description1": "Le Pyroclaw, un mastodonte féroce d'apparence ours, règne en maître près des volcans rugissants de Pyrhéos. Son pelage mi-long d'une teinte brune intense, tirant vers le rouge, lui confère une allure imposante tout en servant de protection contre les températures élevées environnantes. Adapté aux conditions extrêmes, ce redoutable prédateur accepte les chaleurs brûlantes grâce à un pelage unique qui régule efficacement sa température corporelle.",
+                "description2":"En quête incessante de proies, le Pyroclaw, une fois lancé en chasse, poursuit sa cible avec une détermination inébranlable. S'approcher de cette créature sauvage serait une entreprise périlleuse, car son instinct territorial et agressif ne tolère aucune intrusion. Son régime alimentaire, simple mais vorace, couvre tout ce qu'il peut trouver dans son habitat volcanique.",
+                "description3" : "Contrairement aux apparences, le Pyroclaw n'est pas un mammifère. Sa reproduction singulière voit la femelle déposer ses œufs dans la lave ardente, offrant un spectacle fascinant et une adaptation remarquable à un environnement hostile. Une créature aussi redoutable que fascinante, le Pyroclaw incarne la robustesse et la brutalité de la vie sur Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            }
+        ],
+        "activities" : [
+            {
+                "name" : "L'Observation des Aurores Boréales depuis les Montagnes Étoilées",
+                "description" : "Plongez dans la magie des cieux astroniens en entreprenant une excursion nocturne vers les sommets étoilés de la planète. Accompagnés de guides locaux expérimentés, gravissez les majestueuses montagnes gelées pour atteindre des points d'observation privilégiés. Une fois au sommet, laissez-vous émerveiller par le spectacle hypnotique des aurores boréales, qui dansent dans une symphonie de couleurs célestes. C'est une expérience inoubliable, imprégnée du charme mystique propre à Astronia.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Safari Glacial dans les Forêts Bioluminescentes",
+                "description" : "Explorez les profondeurs des forêts glacées, où la flore bioluminescente crée un paysage éthéré. Embarquez dans un safari glacial guidé par des experts de la faune, qui vous feront découvrir la diversité étonnante des créatures adaptées à cet écosystème unique. Rencontrez le Flamelion, observez les Lysendeblomster s'illuminer à la tombée de la nuit, et découvrez les secrets de ces forêts magiques. Un périple captivant à travers une nature arctique resplendissante.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Visite de la Citadelle de Glace: Nexus Technologique et Culturel",
+                "description" : "Plongez dans le cœur technologique et culturel d'Astronia en explorant la Citadelle de Glace. Nichée au cœur d'une vallée glacée, cette cité avancée est le reflet de l'ingéniosité astronienne. Visitez des musées interactifs présentant l'histoire unique de la planète, explorez des laboratoires où des scientifiques repoussent les frontières de la technologie propre, et déambulez dans les rues éclairées par une énergie saine. Une immersion totale dans le mariage réussi de la tradition nordique et du progrès moderne.",
+                "image" : "https://placehold.co/500x300"
+            }
+        ]   
     },
     {
         "id": 2,
@@ -19,13 +67,61 @@
         "planet": "Sélénia",
         "title": "Bienvenue sur Sélénia : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
         "subTitle": "Explorez les Horizons Célestes de ma Planète d'origine où l'Espace Rencontre la Magie Nordique",
-        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "titlePresentation" : "Sélénia : Le Joyau Glacial des Cieux",
+        "presentationPlanetContent1": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "presentationPlanetContent2": "Astronia, berceau de Thorvald Astraforge, émerge majestueusement au sein de la galaxie d'Astrumis, une planète façonnée par l'héritage nordique et la mythologie scandinave. Ses vastes territoires sont dominés par des paysages enchanteurs, où la glace éternelle s'étend à perte de vue, entrelaçant des forêts glacées et des montagnes figées.",
+        "presentationPlanetContent3": "Les sommets enneigés s'élèvent comme des sentinelles vers le ciel, reflétant la grandeur des montagnes nordiques, tandis que des aurores boréales dansent harmonieusement dans les cieux étoilés. Cette symphonie de lumières célestes illumine Astronia, créant des tableaux magiques qui évoquent les récits mythologiques de l'ancien Nord.",
+        "presentationPlanetContent4": "La technologie avancée qui prospère sur Astronia dépasse de loin celle de la Terre, mettant en avant une ingéniosité harmonieuse avec la nature. Les énergies propres et durables propulsent la société astronienne, faisant de cette planète un modèle de coexistence entre progrès technologique et respect de l'environnement.",
+        "presentationPlanetContent5": "Les forêts glacées, où les arbres étincellent comme des joyaux gelés, abritent une faune et une flore adaptées à cet écosystème unique. Astronia, véritable joyau glacial des cieux, dévoile un mariage exquis entre la froide majesté nordique et une civilisation avancée, offrant à Thorvald Astraforge une patrie éblouissante et pleine de mystères." ,
         "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
         "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgsTravels/bg2-1920500.png"
+        "banner": "/img/imgsTravels/bg2-1920500.png",
+        "faune": [
+            {
+                "name" : "Flamelion",
+                "title" : "Le Flamelion, petit animal mystique au caractère bien trempé.",
+                "description1": "La particularité la plus remarquable du Flamelion réside dans son pelage, qui semble constamment scintiller comme des flammes douces. Cette caractéristique unique est le résultat de réactions chimiques spécifiques à son environnement, créant une lueur chaleureuse et hypnotique.",
+                "description2":"Bien que sa taille suggère une possible domestication, le Flamelion reste notoirement difficile à apprivoiser, voire impossible pour la plupart. Sa personnalité têtue et indépendante contraste avec son apparence douce.",
+                "description3" : "En ce qui concerne la reproduction, le Flamelion réserve un spectacle extraordinaire. Une fois par an, lors d'une période fantastique marquée par des aurores boréales pyrénéennes, ces créatures s'engagent dans un rituel de reproduction unique, éclairant le ciel de Pyrhéos de leurs flammes vibrantes. Ce phénomène magique est à la fois majestueux et éphémère, ajoutant un aspect enchanté à la vie de ces créatures extraordinaires sur la planète flamboyante de Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Furiasis",
+                "title" : "Le Furiasis, la force tranquille de la forêt.",
+                "description1": "Au cœur des forêts luxuriantes de Pyrhéos, le Furiasis règne en maître, une version plus douce du redoutable Pyroclaw. Sa fourrure d'un brun apaisant offre une apparence moins intimidante que celle de son homologue volcanique, soulignant sa nature essentiellement pacifique. Naviguant avec agilité à travers le feuillage, le Furiasis se nourrit principalement de fruits, révélant son adaptation à un environnement forestier florissant.",
+                "description2":"Bien que sa nature soit généralement paisible, le Furiasis devient un gardien intraitable envers ses petits. La fureur maternelle se déchaîne si quelqu'un ose s'approcher de ses progénitures, démontrant une détermination à protéger sa famille. Cette dualité entre douceur et défense féroce fait du Furiasis une créature exceptionnelle, symbole de l'équilibre délicat entre la quiétude forestière et l'instinct de protection intense.",
+                "description3" : "Les occasions de voir le Furiasis se nourrir de viande sont rares, mais sa capacité à s'adapter à différents régimes alimentaires reflète la diversité et la résilience des écosystèmes de Pyrhéos. Cette créature enchante les observateurs avec sa grâce forestière et son rôle vital dans l'équilibre de ces écosystèmes foisonnants.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Pyroclaw",
+                "title" : "Le Pyroclaw, le mastodonte volcanique.",
+                "description1": "Le Pyroclaw, un mastodonte féroce d'apparence ours, règne en maître près des volcans rugissants de Pyrhéos. Son pelage mi-long d'une teinte brune intense, tirant vers le rouge, lui confère une allure imposante tout en servant de protection contre les températures élevées environnantes. Adapté aux conditions extrêmes, ce redoutable prédateur accepte les chaleurs brûlantes grâce à un pelage unique qui régule efficacement sa température corporelle.",
+                "description2":"En quête incessante de proies, le Pyroclaw, une fois lancé en chasse, poursuit sa cible avec une détermination inébranlable. S'approcher de cette créature sauvage serait une entreprise périlleuse, car son instinct territorial et agressif ne tolère aucune intrusion. Son régime alimentaire, simple mais vorace, couvre tout ce qu'il peut trouver dans son habitat volcanique.",
+                "description3" : "Contrairement aux apparences, le Pyroclaw n'est pas un mammifère. Sa reproduction singulière voit la femelle déposer ses œufs dans la lave ardente, offrant un spectacle fascinant et une adaptation remarquable à un environnement hostile. Une créature aussi redoutable que fascinante, le Pyroclaw incarne la robustesse et la brutalité de la vie sur Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            }
+        ],
+        "activities" : [
+            {
+                "name" : "L'Observation des Aurores Boréales depuis les Montagnes Étoilées",
+                "description" : "Plongez dans la magie des cieux astroniens en entreprenant une excursion nocturne vers les sommets étoilés de la planète. Accompagnés de guides locaux expérimentés, gravissez les majestueuses montagnes gelées pour atteindre des points d'observation privilégiés. Une fois au sommet, laissez-vous émerveiller par le spectacle hypnotique des aurores boréales, qui dansent dans une symphonie de couleurs célestes. C'est une expérience inoubliable, imprégnée du charme mystique propre à Astronia.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Safari Glacial dans les Forêts Bioluminescentes",
+                "description" : "Explorez les profondeurs des forêts glacées, où la flore bioluminescente crée un paysage éthéré. Embarquez dans un safari glacial guidé par des experts de la faune, qui vous feront découvrir la diversité étonnante des créatures adaptées à cet écosystème unique. Rencontrez le Flamelion, observez les Lysendeblomster s'illuminer à la tombée de la nuit, et découvrez les secrets de ces forêts magiques. Un périple captivant à travers une nature arctique resplendissante.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Visite de la Citadelle de Glace: Nexus Technologique et Culturel",
+                "description" : "Plongez dans le cœur technologique et culturel d'Astronia en explorant la Citadelle de Glace. Nichée au cœur d'une vallée glacée, cette cité avancée est le reflet de l'ingéniosité astronienne. Visitez des musées interactifs présentant l'histoire unique de la planète, explorez des laboratoires où des scientifiques repoussent les frontières de la technologie propre, et déambulez dans les rues éclairées par une énergie saine. Une immersion totale dans le mariage réussi de la tradition nordique et du progrès moderne.",
+                "image" : "https://placehold.co/500x300"
+            }
+        ] 
     },
     {
         "id": 3,
@@ -33,13 +129,61 @@
         "planet": "Pyrhéos",
         "title": "Bienvenue sur Pyrhéos : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
         "subTitle": "Explorez les Horizons Célestes de ma Planète d'origine où l'Espace Rencontre la Magie Nordique",
-        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "titlePresentation" : "Pyrhéos : Le Joyau Glacial des Cieux",
+        "presentationPlanetContent1": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "presentationPlanetContent2": "Astronia, berceau de Thorvald Astraforge, émerge majestueusement au sein de la galaxie d'Astrumis, une planète façonnée par l'héritage nordique et la mythologie scandinave. Ses vastes territoires sont dominés par des paysages enchanteurs, où la glace éternelle s'étend à perte de vue, entrelaçant des forêts glacées et des montagnes figées.",
+        "presentationPlanetContent3": "Les sommets enneigés s'élèvent comme des sentinelles vers le ciel, reflétant la grandeur des montagnes nordiques, tandis que des aurores boréales dansent harmonieusement dans les cieux étoilés. Cette symphonie de lumières célestes illumine Astronia, créant des tableaux magiques qui évoquent les récits mythologiques de l'ancien Nord.",
+        "presentationPlanetContent4": "La technologie avancée qui prospère sur Astronia dépasse de loin celle de la Terre, mettant en avant une ingéniosité harmonieuse avec la nature. Les énergies propres et durables propulsent la société astronienne, faisant de cette planète un modèle de coexistence entre progrès technologique et respect de l'environnement.",
+        "presentationPlanetContent5": "Les forêts glacées, où les arbres étincellent comme des joyaux gelés, abritent une faune et une flore adaptées à cet écosystème unique. Astronia, véritable joyau glacial des cieux, dévoile un mariage exquis entre la froide majesté nordique et une civilisation avancée, offrant à Thorvald Astraforge une patrie éblouissante et pleine de mystères." ,
         "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
         "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgsTravels/bg3-1920500.png"
+        "banner": "/img/imgsTravels/bg3-1920500.png",
+        "faune": [
+            {
+                "name" : "Flamelion",
+                "title" : "Le Flamelion, petit animal mystique au caractère bien trempé.",
+                "description1": "La particularité la plus remarquable du Flamelion réside dans son pelage, qui semble constamment scintiller comme des flammes douces. Cette caractéristique unique est le résultat de réactions chimiques spécifiques à son environnement, créant une lueur chaleureuse et hypnotique.",
+                "description2":"Bien que sa taille suggère une possible domestication, le Flamelion reste notoirement difficile à apprivoiser, voire impossible pour la plupart. Sa personnalité têtue et indépendante contraste avec son apparence douce.",
+                "description3" : "En ce qui concerne la reproduction, le Flamelion réserve un spectacle extraordinaire. Une fois par an, lors d'une période fantastique marquée par des aurores boréales pyrénéennes, ces créatures s'engagent dans un rituel de reproduction unique, éclairant le ciel de Pyrhéos de leurs flammes vibrantes. Ce phénomène magique est à la fois majestueux et éphémère, ajoutant un aspect enchanté à la vie de ces créatures extraordinaires sur la planète flamboyante de Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Furiasis",
+                "title" : "Le Furiasis, la force tranquille de la forêt.",
+                "description1": "Au cœur des forêts luxuriantes de Pyrhéos, le Furiasis règne en maître, une version plus douce du redoutable Pyroclaw. Sa fourrure d'un brun apaisant offre une apparence moins intimidante que celle de son homologue volcanique, soulignant sa nature essentiellement pacifique. Naviguant avec agilité à travers le feuillage, le Furiasis se nourrit principalement de fruits, révélant son adaptation à un environnement forestier florissant.",
+                "description2":"Bien que sa nature soit généralement paisible, le Furiasis devient un gardien intraitable envers ses petits. La fureur maternelle se déchaîne si quelqu'un ose s'approcher de ses progénitures, démontrant une détermination à protéger sa famille. Cette dualité entre douceur et défense féroce fait du Furiasis une créature exceptionnelle, symbole de l'équilibre délicat entre la quiétude forestière et l'instinct de protection intense.",
+                "description3" : "Les occasions de voir le Furiasis se nourrir de viande sont rares, mais sa capacité à s'adapter à différents régimes alimentaires reflète la diversité et la résilience des écosystèmes de Pyrhéos. Cette créature enchante les observateurs avec sa grâce forestière et son rôle vital dans l'équilibre de ces écosystèmes foisonnants.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Pyroclaw",
+                "title" : "Le Pyroclaw, le mastodonte volcanique.",
+                "description1": "Le Pyroclaw, un mastodonte féroce d'apparence ours, règne en maître près des volcans rugissants de Pyrhéos. Son pelage mi-long d'une teinte brune intense, tirant vers le rouge, lui confère une allure imposante tout en servant de protection contre les températures élevées environnantes. Adapté aux conditions extrêmes, ce redoutable prédateur accepte les chaleurs brûlantes grâce à un pelage unique qui régule efficacement sa température corporelle.",
+                "description2":"En quête incessante de proies, le Pyroclaw, une fois lancé en chasse, poursuit sa cible avec une détermination inébranlable. S'approcher de cette créature sauvage serait une entreprise périlleuse, car son instinct territorial et agressif ne tolère aucune intrusion. Son régime alimentaire, simple mais vorace, couvre tout ce qu'il peut trouver dans son habitat volcanique.",
+                "description3" : "Contrairement aux apparences, le Pyroclaw n'est pas un mammifère. Sa reproduction singulière voit la femelle déposer ses œufs dans la lave ardente, offrant un spectacle fascinant et une adaptation remarquable à un environnement hostile. Une créature aussi redoutable que fascinante, le Pyroclaw incarne la robustesse et la brutalité de la vie sur Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            }
+        ],
+        "activities" : [
+            {
+                "name" : "L'Observation des Aurores Boréales depuis les Montagnes Étoilées",
+                "description" : "Plongez dans la magie des cieux astroniens en entreprenant une excursion nocturne vers les sommets étoilés de la planète. Accompagnés de guides locaux expérimentés, gravissez les majestueuses montagnes gelées pour atteindre des points d'observation privilégiés. Une fois au sommet, laissez-vous émerveiller par le spectacle hypnotique des aurores boréales, qui dansent dans une symphonie de couleurs célestes. C'est une expérience inoubliable, imprégnée du charme mystique propre à Astronia.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Safari Glacial dans les Forêts Bioluminescentes",
+                "description" : "Explorez les profondeurs des forêts glacées, où la flore bioluminescente crée un paysage éthéré. Embarquez dans un safari glacial guidé par des experts de la faune, qui vous feront découvrir la diversité étonnante des créatures adaptées à cet écosystème unique. Rencontrez le Flamelion, observez les Lysendeblomster s'illuminer à la tombée de la nuit, et découvrez les secrets de ces forêts magiques. Un périple captivant à travers une nature arctique resplendissante.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Visite de la Citadelle de Glace: Nexus Technologique et Culturel",
+                "description" : "Plongez dans le cœur technologique et culturel d'Astronia en explorant la Citadelle de Glace. Nichée au cœur d'une vallée glacée, cette cité avancée est le reflet de l'ingéniosité astronienne. Visitez des musées interactifs présentant l'histoire unique de la planète, explorez des laboratoires où des scientifiques repoussent les frontières de la technologie propre, et déambulez dans les rues éclairées par une énergie saine. Une immersion totale dans le mariage réussi de la tradition nordique et du progrès moderne.",
+                "image" : "https://placehold.co/500x300"
+            }
+        ] 
     },
     {
         "id": 4,
@@ -47,13 +191,61 @@
         "planet": "Aquaréa ",
         "title": "Bienvenue sur Aquaréa : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
         "subTitle": "Explorez les Horizons Célestes de ma Planète d'origine où l'Espace Rencontre la Magie Nordique",
-        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "titlePresentation" : "Aquaréa : Le Joyau Glacial des Cieux",
+        "presentationPlanetContent1": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "presentationPlanetContent2": "Astronia, berceau de Thorvald Astraforge, émerge majestueusement au sein de la galaxie d'Astrumis, une planète façonnée par l'héritage nordique et la mythologie scandinave. Ses vastes territoires sont dominés par des paysages enchanteurs, où la glace éternelle s'étend à perte de vue, entrelaçant des forêts glacées et des montagnes figées.",
+        "presentationPlanetContent3": "Les sommets enneigés s'élèvent comme des sentinelles vers le ciel, reflétant la grandeur des montagnes nordiques, tandis que des aurores boréales dansent harmonieusement dans les cieux étoilés. Cette symphonie de lumières célestes illumine Astronia, créant des tableaux magiques qui évoquent les récits mythologiques de l'ancien Nord.",
+        "presentationPlanetContent4": "La technologie avancée qui prospère sur Astronia dépasse de loin celle de la Terre, mettant en avant une ingéniosité harmonieuse avec la nature. Les énergies propres et durables propulsent la société astronienne, faisant de cette planète un modèle de coexistence entre progrès technologique et respect de l'environnement.",
+        "presentationPlanetContent5": "Les forêts glacées, où les arbres étincellent comme des joyaux gelés, abritent une faune et une flore adaptées à cet écosystème unique. Astronia, véritable joyau glacial des cieux, dévoile un mariage exquis entre la froide majesté nordique et une civilisation avancée, offrant à Thorvald Astraforge une patrie éblouissante et pleine de mystères." ,
         "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
         "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgsTravels/bg4-1920500.png"
+        "banner": "/img/imgsTravels/bg4-1920500.png",
+        "faune": [
+            {
+                "name" : "Flamelion",
+                "title" : "Le Flamelion, petit animal mystique au caractère bien trempé.",
+                "description1": "La particularité la plus remarquable du Flamelion réside dans son pelage, qui semble constamment scintiller comme des flammes douces. Cette caractéristique unique est le résultat de réactions chimiques spécifiques à son environnement, créant une lueur chaleureuse et hypnotique.",
+                "description2":"Bien que sa taille suggère une possible domestication, le Flamelion reste notoirement difficile à apprivoiser, voire impossible pour la plupart. Sa personnalité têtue et indépendante contraste avec son apparence douce.",
+                "description3" : "En ce qui concerne la reproduction, le Flamelion réserve un spectacle extraordinaire. Une fois par an, lors d'une période fantastique marquée par des aurores boréales pyrénéennes, ces créatures s'engagent dans un rituel de reproduction unique, éclairant le ciel de Pyrhéos de leurs flammes vibrantes. Ce phénomène magique est à la fois majestueux et éphémère, ajoutant un aspect enchanté à la vie de ces créatures extraordinaires sur la planète flamboyante de Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Furiasis",
+                "title" : "Le Furiasis, la force tranquille de la forêt.",
+                "description1": "Au cœur des forêts luxuriantes de Pyrhéos, le Furiasis règne en maître, une version plus douce du redoutable Pyroclaw. Sa fourrure d'un brun apaisant offre une apparence moins intimidante que celle de son homologue volcanique, soulignant sa nature essentiellement pacifique. Naviguant avec agilité à travers le feuillage, le Furiasis se nourrit principalement de fruits, révélant son adaptation à un environnement forestier florissant.",
+                "description2":"Bien que sa nature soit généralement paisible, le Furiasis devient un gardien intraitable envers ses petits. La fureur maternelle se déchaîne si quelqu'un ose s'approcher de ses progénitures, démontrant une détermination à protéger sa famille. Cette dualité entre douceur et défense féroce fait du Furiasis une créature exceptionnelle, symbole de l'équilibre délicat entre la quiétude forestière et l'instinct de protection intense.",
+                "description3" : "Les occasions de voir le Furiasis se nourrir de viande sont rares, mais sa capacité à s'adapter à différents régimes alimentaires reflète la diversité et la résilience des écosystèmes de Pyrhéos. Cette créature enchante les observateurs avec sa grâce forestière et son rôle vital dans l'équilibre de ces écosystèmes foisonnants.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Pyroclaw",
+                "title" : "Le Pyroclaw, le mastodonte volcanique.",
+                "description1": "Le Pyroclaw, un mastodonte féroce d'apparence ours, règne en maître près des volcans rugissants de Pyrhéos. Son pelage mi-long d'une teinte brune intense, tirant vers le rouge, lui confère une allure imposante tout en servant de protection contre les températures élevées environnantes. Adapté aux conditions extrêmes, ce redoutable prédateur accepte les chaleurs brûlantes grâce à un pelage unique qui régule efficacement sa température corporelle.",
+                "description2":"En quête incessante de proies, le Pyroclaw, une fois lancé en chasse, poursuit sa cible avec une détermination inébranlable. S'approcher de cette créature sauvage serait une entreprise périlleuse, car son instinct territorial et agressif ne tolère aucune intrusion. Son régime alimentaire, simple mais vorace, couvre tout ce qu'il peut trouver dans son habitat volcanique.",
+                "description3" : "Contrairement aux apparences, le Pyroclaw n'est pas un mammifère. Sa reproduction singulière voit la femelle déposer ses œufs dans la lave ardente, offrant un spectacle fascinant et une adaptation remarquable à un environnement hostile. Une créature aussi redoutable que fascinante, le Pyroclaw incarne la robustesse et la brutalité de la vie sur Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            }
+        ],
+        "activities" : [
+            {
+                "name" : "L'Observation des Aurores Boréales depuis les Montagnes Étoilées",
+                "description" : "Plongez dans la magie des cieux astroniens en entreprenant une excursion nocturne vers les sommets étoilés de la planète. Accompagnés de guides locaux expérimentés, gravissez les majestueuses montagnes gelées pour atteindre des points d'observation privilégiés. Une fois au sommet, laissez-vous émerveiller par le spectacle hypnotique des aurores boréales, qui dansent dans une symphonie de couleurs célestes. C'est une expérience inoubliable, imprégnée du charme mystique propre à Astronia.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Safari Glacial dans les Forêts Bioluminescentes",
+                "description" : "Explorez les profondeurs des forêts glacées, où la flore bioluminescente crée un paysage éthéré. Embarquez dans un safari glacial guidé par des experts de la faune, qui vous feront découvrir la diversité étonnante des créatures adaptées à cet écosystème unique. Rencontrez le Flamelion, observez les Lysendeblomster s'illuminer à la tombée de la nuit, et découvrez les secrets de ces forêts magiques. Un périple captivant à travers une nature arctique resplendissante.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Visite de la Citadelle de Glace: Nexus Technologique et Culturel",
+                "description" : "Plongez dans le cœur technologique et culturel d'Astronia en explorant la Citadelle de Glace. Nichée au cœur d'une vallée glacée, cette cité avancée est le reflet de l'ingéniosité astronienne. Visitez des musées interactifs présentant l'histoire unique de la planète, explorez des laboratoires où des scientifiques repoussent les frontières de la technologie propre, et déambulez dans les rues éclairées par une énergie saine. Une immersion totale dans le mariage réussi de la tradition nordique et du progrès moderne.",
+                "image" : "https://placehold.co/500x300"
+            }
+        ] 
     },
     {
         "id": 5,
@@ -61,12 +253,60 @@
         "planet": "Chrysalidia ",
         "title": "Bienvenue sur Chrysalidia : Terre d'Aventure Nordique dans la Galaxie d'Astrumis",
         "subTitle": "Explorez les Horizons Célestes de ma Planète d'origine où l'Espace Rencontre la Magie Nordique",
-        "presentationPlanetContent": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "titlePresentation" : "Chrysalidia : Le Joyau Glacial des Cieux",
+        "presentationPlanetContent1": "Plongez dans l'éther de la galaxie d'Astrumis et découvrez Atronia, la patrie éblouissante de Thorvald Astraforge. Ce monde céleste, bercé par les étoiles, évoque la majesté des paysages nordiques terrestres, avec des fjords cosmiques et des aurores boréales astrales qui illuminent le ciel nocturne.",
+        "presentationPlanetContent2": "Astronia, berceau de Thorvald Astraforge, émerge majestueusement au sein de la galaxie d'Astrumis, une planète façonnée par l'héritage nordique et la mythologie scandinave. Ses vastes territoires sont dominés par des paysages enchanteurs, où la glace éternelle s'étend à perte de vue, entrelaçant des forêts glacées et des montagnes figées.",
+        "presentationPlanetContent3": "Les sommets enneigés s'élèvent comme des sentinelles vers le ciel, reflétant la grandeur des montagnes nordiques, tandis que des aurores boréales dansent harmonieusement dans les cieux étoilés. Cette symphonie de lumières célestes illumine Astronia, créant des tableaux magiques qui évoquent les récits mythologiques de l'ancien Nord.",
+        "presentationPlanetContent4": "La technologie avancée qui prospère sur Astronia dépasse de loin celle de la Terre, mettant en avant une ingéniosité harmonieuse avec la nature. Les énergies propres et durables propulsent la société astronienne, faisant de cette planète un modèle de coexistence entre progrès technologique et respect de l'environnement.",
+        "presentationPlanetContent5": "Les forêts glacées, où les arbres étincellent comme des joyaux gelés, abritent une faune et une flore adaptées à cet écosystème unique. Astronia, véritable joyau glacial des cieux, dévoile un mariage exquis entre la froide majesté nordique et une civilisation avancée, offrant à Thorvald Astraforge une patrie éblouissante et pleine de mystères." ,
         "landscapeContent": "Atronia est une symphonie visuelle de pics stellaires, de vastes étendues de glace astrale et de forêts éthérées aux arbres luminescents. Les montagnes s'élèvent comme des titans célestes, leurs sommets effleurant les confins de l'atmosphère.",
         "widlLifeContent": "Parmi les créatures extraordinaires qui peuplent Atronia, les \"Stjerneskrik\" dérivent gracieusement dans les cieux, leurs ailes translucides capturant la lumière des étoiles. Les \"Skyggehjort\", des créatures terrestres aux cornes scintillantes, parcourent les plaines glacées à la recherche d'aurores boréales pour se nourrir.",
         "floraContent": "Les \"Lysendeblomster\" parsèment le sol, des fleurs bioluminescentes aux pétales cristallins qui éclairent la nuit. Les \"Glansetrær\", des arbres majestueux, projettent des reflets chatoyants grâce à leur écorce cristalline, transformant les forêts en un spectacle de lumières féeriques.",
         "pictures": [],
         "thumbnail": "/thumbnail-generique.png",
-        "banner": "/img/imgsTravels/bg4-1920500.png"
+        "banner": "/img/imgsTravels/bg4-1920500.png",
+        "faune": [
+            {
+                "name" : "Flamelion",
+                "title" : "Le Flamelion, petit animal mystique au caractère bien trempé.",
+                "description1": "La particularité la plus remarquable du Flamelion réside dans son pelage, qui semble constamment scintiller comme des flammes douces. Cette caractéristique unique est le résultat de réactions chimiques spécifiques à son environnement, créant une lueur chaleureuse et hypnotique.",
+                "description2":"Bien que sa taille suggère une possible domestication, le Flamelion reste notoirement difficile à apprivoiser, voire impossible pour la plupart. Sa personnalité têtue et indépendante contraste avec son apparence douce.",
+                "description3" : "En ce qui concerne la reproduction, le Flamelion réserve un spectacle extraordinaire. Une fois par an, lors d'une période fantastique marquée par des aurores boréales pyrénéennes, ces créatures s'engagent dans un rituel de reproduction unique, éclairant le ciel de Pyrhéos de leurs flammes vibrantes. Ce phénomène magique est à la fois majestueux et éphémère, ajoutant un aspect enchanté à la vie de ces créatures extraordinaires sur la planète flamboyante de Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Furiasis",
+                "title" : "Le Furiasis, la force tranquille de la forêt.",
+                "description1": "Au cœur des forêts luxuriantes de Pyrhéos, le Furiasis règne en maître, une version plus douce du redoutable Pyroclaw. Sa fourrure d'un brun apaisant offre une apparence moins intimidante que celle de son homologue volcanique, soulignant sa nature essentiellement pacifique. Naviguant avec agilité à travers le feuillage, le Furiasis se nourrit principalement de fruits, révélant son adaptation à un environnement forestier florissant.",
+                "description2":"Bien que sa nature soit généralement paisible, le Furiasis devient un gardien intraitable envers ses petits. La fureur maternelle se déchaîne si quelqu'un ose s'approcher de ses progénitures, démontrant une détermination à protéger sa famille. Cette dualité entre douceur et défense féroce fait du Furiasis une créature exceptionnelle, symbole de l'équilibre délicat entre la quiétude forestière et l'instinct de protection intense.",
+                "description3" : "Les occasions de voir le Furiasis se nourrir de viande sont rares, mais sa capacité à s'adapter à différents régimes alimentaires reflète la diversité et la résilience des écosystèmes de Pyrhéos. Cette créature enchante les observateurs avec sa grâce forestière et son rôle vital dans l'équilibre de ces écosystèmes foisonnants.",
+                "image" : "https://placehold.co/600x400"
+            },
+            {
+                "name" : "Pyroclaw",
+                "title" : "Le Pyroclaw, le mastodonte volcanique.",
+                "description1": "Le Pyroclaw, un mastodonte féroce d'apparence ours, règne en maître près des volcans rugissants de Pyrhéos. Son pelage mi-long d'une teinte brune intense, tirant vers le rouge, lui confère une allure imposante tout en servant de protection contre les températures élevées environnantes. Adapté aux conditions extrêmes, ce redoutable prédateur accepte les chaleurs brûlantes grâce à un pelage unique qui régule efficacement sa température corporelle.",
+                "description2":"En quête incessante de proies, le Pyroclaw, une fois lancé en chasse, poursuit sa cible avec une détermination inébranlable. S'approcher de cette créature sauvage serait une entreprise périlleuse, car son instinct territorial et agressif ne tolère aucune intrusion. Son régime alimentaire, simple mais vorace, couvre tout ce qu'il peut trouver dans son habitat volcanique.",
+                "description3" : "Contrairement aux apparences, le Pyroclaw n'est pas un mammifère. Sa reproduction singulière voit la femelle déposer ses œufs dans la lave ardente, offrant un spectacle fascinant et une adaptation remarquable à un environnement hostile. Une créature aussi redoutable que fascinante, le Pyroclaw incarne la robustesse et la brutalité de la vie sur Pyrhéos.",
+                "image" : "https://placehold.co/600x400"
+            }
+        ],
+        "activities" : [
+            {
+                "name" : "L'Observation des Aurores Boréales depuis les Montagnes Étoilées",
+                "description" : "Plongez dans la magie des cieux astroniens en entreprenant une excursion nocturne vers les sommets étoilés de la planète. Accompagnés de guides locaux expérimentés, gravissez les majestueuses montagnes gelées pour atteindre des points d'observation privilégiés. Une fois au sommet, laissez-vous émerveiller par le spectacle hypnotique des aurores boréales, qui dansent dans une symphonie de couleurs célestes. C'est une expérience inoubliable, imprégnée du charme mystique propre à Astronia.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Safari Glacial dans les Forêts Bioluminescentes",
+                "description" : "Explorez les profondeurs des forêts glacées, où la flore bioluminescente crée un paysage éthéré. Embarquez dans un safari glacial guidé par des experts de la faune, qui vous feront découvrir la diversité étonnante des créatures adaptées à cet écosystème unique. Rencontrez le Flamelion, observez les Lysendeblomster s'illuminer à la tombée de la nuit, et découvrez les secrets de ces forêts magiques. Un périple captivant à travers une nature arctique resplendissante.",
+                "image" : "https://placehold.co/500x300"
+            },
+            {
+                "name" : "Visite de la Citadelle de Glace: Nexus Technologique et Culturel",
+                "description" : "Plongez dans le cœur technologique et culturel d'Astronia en explorant la Citadelle de Glace. Nichée au cœur d'une vallée glacée, cette cité avancée est le reflet de l'ingéniosité astronienne. Visitez des musées interactifs présentant l'histoire unique de la planète, explorez des laboratoires où des scientifiques repoussent les frontières de la technologie propre, et déambulez dans les rues éclairées par une énergie saine. Une immersion totale dans le mariage réussi de la tradition nordique et du progrès moderne.",
+                "image" : "https://placehold.co/500x300"
+            }
+        ] 
     }
 ]

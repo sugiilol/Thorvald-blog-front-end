@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     .travelView-banner {
         width: 100%;
         height: 500px;
@@ -19,22 +19,109 @@
         margin-left: 10vw;
         margin-right: 10vw;
 
-        .travelView-content-top-part{
-           h1 {  
-            margin-bottom: 5px;
-            text-align: center;
-            font-size: 2em;
-            }   
-            h2{
-                text-align: center;
-                font-size: 1.3em;
-            } 
+        .travelView-content-top-part {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+            .content-left-part {
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                justify-content: left;
+                padding-right: 20px;
+
+                h1 {
+                    margin-bottom: 5px;
+                    font-size: 2em;
+                }
+
+                h2 {
+                    font-size: 1.3em;
+                }
+            }
+
+            .content-right-part{
+                width: 500px;
+            }
         }
 
-        .travelView-content-middle-part{
-            max-width: 750px;
-            text-align: center;
-            font-size: 1.2em;
+        .travelView-transition-part {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+
+            img{
+                width: 100%;
+            }
         }
+
+        .content-detail-planet-part{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: left;
+            margin-bottom: 50px;
+            width: 1000px;
+
+            h2{
+                font-size: 2em;
+            }
+        }
+
+        .content-faune-part {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2{
+                font-size: 2em;
+            }
+            .content-animal-part {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 50px;
+
+                .faune-left-part {
+                    height: 400px;
+                    padding: 20px;
+                }
+            }
+        }
+        .content-todo-part{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 900px;
+
+            h2{
+                font-size: 2em;
+            }
+
+            .todo-card-planet{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid rgb(212, 210, 210);
+                width: 1200px;
+                height: 300px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+
+                .todo-card-left-part{
+                    padding: 30px;
+                }
+            }
+        }
+
     }
 }

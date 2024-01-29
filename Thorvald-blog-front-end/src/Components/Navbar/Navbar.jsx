@@ -27,7 +27,6 @@ export default function Navbar() {
                         <li><Link to={"voyages"}>Voyages</Link></li>
                         <li><a href="#">L'aventure</a></li>
                         <li><a href="#">Cuisine d'ailleurs</a></li>
-                        <li><a href="#">Tutoriels</a></li>
                         <li><a href="#">Galerie</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
