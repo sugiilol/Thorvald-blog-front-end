@@ -16,8 +16,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 10vw;
-        margin-right: 10vw;
 
         .travelView-content-top-part {
             display: flex;
@@ -26,6 +24,9 @@
             justify-content: center;
             margin-top: 50px;
             margin-bottom: 50px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+
 
             .content-left-part {
                 display: flex;
@@ -42,11 +43,7 @@
                 h2 {
                     font-size: 1.3em;
                 }
-            }
-
-            .content-right-part{
-                width: 500px;
-            }
+            }        
         }
 
         .travelView-transition-part {
@@ -56,7 +53,7 @@
             margin-bottom: 50px;
 
             img{
-                width: 100%;
+                width: 90%;
             }
         }
 
@@ -78,6 +75,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin-left: 10vw;
+            margin-right: 10vw;
 
             h2{
                 font-size: 2em;
@@ -88,6 +87,8 @@
                 align-items: center;
                 justify-content: center;
                 margin-bottom: 50px;
+
+                border: 1px solid black;
 
                 .faune-left-part {
                     height: 400px;
@@ -100,7 +101,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 900px;
+            margin-left: 10vw;
+            margin-right: 10vw;
 
             h2{
                 font-size: 2em;
@@ -123,5 +125,99 @@
             }
         }
 
+    }
+
+    @media screen and (max-width: 1465px) {
+        
+            .travelView-content{
+                .travelView-content-top-part{
+                    .content-left-part{
+                    
+                        h1 {
+                            font-size: 1.5em;
+                        }
+            
+                        h2 {
+                            font-size: 1.2em;
+                        }
+                    }
+                    .content-right-part{
+                        
+                        img{
+                            width: 500px;
+                        }
+                    }
+                }  
+                .content-faune-part{
+                                  
+                    .content-animal-part{
+                        
+                        .faune-left-part{
+                            h3{
+                                font-size: 1.3em;
+                            }
+                            p{
+                                font-size: 0.9em;
+                            }
+                        }
+                        .faune-right-part{
+                            img{
+                                width: 500px;
+                            }
+                        }
+                    }
+                }        
+            }
+               
+    }
+
+    @media screen and (max-width: 1220px) {
+        .content-todo-part{
+            .todo-card-planet{
+                
+            }
+        }
+    }
+
+    @media screen and (max-width: 1175px) {
+        .travelView-content{
+            .travelView-content-top-part{
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin:0;
+
+                .content-left-part{
+                    margin-left : 20vw;
+                    margin-right: 20vw;
+                }
+
+                .content-right-part{
+                    img{
+                        width: 600px;
+                    }
+                }
+            }
+    
+    
+            .content-faune-part{     
+                .content-animal-part{
+                    .faune-left-part{
+                        h3{
+                            font-size: 1.4em;
+                        }
+                        p{
+                            font-size: 1.1em;
+                        }
+                    }
+                    .faune-right-part{
+                        img{
+                            width: 500px;
+                        }
+                    }
+                }
+            } 
+        }
+        
     }
 }
