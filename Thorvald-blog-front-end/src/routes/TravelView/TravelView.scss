@@ -63,7 +63,8 @@
             align-items: center;
             justify-content: left;
             margin-bottom: 50px;
-            width: 1000px;
+            margin-left: 20vw;
+            margin-right: 20vw;
 
             h2{
                 font-size: 2em;
@@ -92,7 +93,8 @@
 
                 .faune-left-part {
                     height: 400px;
-                    padding: 20px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                 }
             }
         }
@@ -114,7 +116,7 @@
                 align-items: center;
                 justify-content: center;
                 border: 2px solid rgb(212, 210, 210);
-                width: 1200px;
+                
                 height: 300px;
                 margin-top: 20px;
                 margin-bottom: 20px;
@@ -172,11 +174,7 @@
     }
 
     @media screen and (max-width: 1220px) {
-        .content-todo-part{
-            .todo-card-planet{
-                
-            }
-        }
+        
     }
 
     @media screen and (max-width: 1175px) {
@@ -198,17 +196,11 @@
                     }
                 }
             }
-    
-    
+        
             .content-faune-part{     
                 .content-animal-part{
                     .faune-left-part{
-                        h3{
-                            font-size: 1.4em;
-                        }
-                        p{
-                            font-size: 1.1em;
-                        }
+                        
                     }
                     .faune-right-part{
                         img{
@@ -217,6 +209,24 @@
                     }
                 }
             } 
+            .content-todo-part{
+                .todo-card-planet{
+                    
+                    .todo-card-left-part{
+                        h3{
+                            font-size: 1.3em;
+                        }
+                        p{
+                            font-size: 0.9em;
+                        }
+                    }
+                    .todo-card-rigt-part{
+                        img{
+                            width: 400px;
+                        }
+                    }
+                }
+            }
         }
         
     }
