@@ -43,7 +43,7 @@
                 h2 {
                     font-size: 1.3em;
                 }
-            }        
+            }
         }
 
         .travelView-transition-part {
@@ -52,12 +52,12 @@
             justify-content: center;
             margin-bottom: 50px;
 
-            img{
-                width: 90%;
+            img {
+                width: 90vw;
             }
         }
 
-        .content-detail-planet-part{
+        .content-detail-planet-part {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -66,7 +66,7 @@
             margin-left: 20vw;
             margin-right: 20vw;
 
-            h2{
+            h2 {
                 font-size: 2em;
             }
         }
@@ -79,9 +79,10 @@
             margin-left: 10vw;
             margin-right: 10vw;
 
-            h2{
+            h2 {
                 font-size: 2em;
             }
+
             .content-animal-part {
                 display: flex;
                 flex-direction: row;
@@ -92,142 +93,183 @@
                 border: 1px solid black;
 
                 .faune-left-part {
-                    height: 400px;
                     padding-left: 20px;
                     padding-right: 20px;
                 }
             }
         }
-        .content-todo-part{
+
+        .content-todo-part {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-left: 10vw;
-            margin-right: 10vw;
+            margin-left: 20vw;
+            margin-right: 20vw;
 
-            h2{
+            h2 {
                 font-size: 2em;
             }
 
-            .todo-card-planet{
+            .todo-card-planet {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
                 border: 2px solid rgb(212, 210, 210);
-                
-                height: 300px;
+
                 margin-top: 20px;
                 margin-bottom: 20px;
 
-                .todo-card-left-part{
+                .todo-card-left-part {
                     padding: 30px;
                 }
             }
         }
-
     }
 
     @media screen and (max-width: 1465px) {
-        
-            .travelView-content{
-                .travelView-content-top-part{
-                    .content-left-part{
-                    
-                        h1 {
-                            font-size: 1.5em;
-                        }
-            
-                        h2 {
-                            font-size: 1.2em;
-                        }
-                    }
-                    .content-right-part{
-                        
-                        img{
-                            width: 500px;
-                        }
-                    }
-                }  
-                .content-faune-part{
-                                  
-                    .content-animal-part{
-                        
-                        .faune-left-part{
-                            h3{
-                                font-size: 1.3em;
-                            }
-                            p{
-                                font-size: 0.9em;
-                            }
-                        }
-                        .faune-right-part{
-                            img{
-                                width: 500px;
-                            }
-                        }
-                    }
-                }        
-            }
-               
-    }
+        .travelView-content {
+            .travelView-content-top-part {
+                .content-left-part {
 
-    @media screen and (max-width: 1220px) {
-        
-    }
+                    h1 {
+                        font-size: 1.5em;
+                    }
 
-    @media screen and (max-width: 1175px) {
-        .travelView-content{
-            .travelView-content-top-part{
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                margin:0;
-
-                .content-left-part{
-                    margin-left : 20vw;
-                    margin-right: 20vw;
+                    h2 {
+                        font-size: 1.2em;
+                    }
                 }
 
-                .content-right-part{
-                    img{
-                        width: 600px;
+                .content-right-part {
+
+                    img {
+                        width: 500px;
                     }
                 }
             }
-        
-            .content-faune-part{     
-                .content-animal-part{
-                    .faune-left-part{
-                        
-                    }
-                    .faune-right-part{
-                        img{
-                            width: 500px;
-                        }
-                    }
-                }
-            } 
-            .content-todo-part{
-                .todo-card-planet{
-                    
-                    .todo-card-left-part{
-                        h3{
+
+            .content-faune-part {
+                .content-animal-part {
+                    .faune-left-part {
+                        h3 {
                             font-size: 1.3em;
                         }
-                        p{
+
+                        p {
                             font-size: 0.9em;
                         }
                     }
-                    .todo-card-rigt-part{
-                        img{
+
+                    .faune-right-part {
+                        img {
+                            width: 500px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1175px) {
+        .travelView-content {
+            .travelView-content-top-part {
+
+                .content-left-part {
+                    h1 {
+                        font-size: 1.3em;
+                    }
+
+                    h2 {
+                        font-size: 1em;
+                    }
+
+                    p {
+                        font-size: 0.9em;
+                    }
+                }
+
+                .content-right-part {
+                    img {
+                        width: 400px;
+                    }
+                }
+            }
+
+            .content-faune-part {
+                .content-animal-part {
+                    .faune-right-part {
+                        img {
+                            width: 400px;
+                        }
+                    }
+                }
+            }
+
+            .content-todo-part {
+                .todo-card-planet {
+
+                    .todo-card-left-part {
+                        h3 {
+                            font-size: 1.3em;
+                        }
+
+                        p {
+                            font-size: 0.9em;
+                        }
+                    }
+
+                    .todo-card-rigt-part {
+                        img {
                             width: 400px;
                         }
                     }
                 }
             }
         }
-        
+    }
+
+    @media screen and (max-width: 1100px) {
+        .travelView-content {
+            .content-faune-part {
+                .content-animal-part {
+                    flex-direction: column;
+
+                    .faune-right-part {
+                        img {
+                            width: 600px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 990px) {
+        .travelView-content {
+            .travelView-content-top-part {
+                flex-direction: column;
+                text-align: center;
+                .content-left-part {
+                    width: 60vw;
+                    padding-right: 0;
+                    h1 {
+                        font-size: 1.5em;
+                    }
+
+                    h2 {
+                        font-size: 1.2em;
+                    }
+                }
+
+                .content-right-part {
+
+                    img {
+                        width: 60vw;
+                    }
+                }
+            }
+        }
     }
 }
