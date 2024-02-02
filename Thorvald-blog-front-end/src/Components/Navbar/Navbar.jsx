@@ -25,7 +25,7 @@ export default function Navbar() {
                     <ul>
                         <li><Link to={"/"}>Accueil</Link></li>
                         <li><Link to={"voyages"}>Voyages</Link></li>
-                        <li><a href="#">L'aventure</a></li>
+                        <li><Link to={"aventure"}>L'aventure</Link></li>
                         <li><a href="#">Cuisine d'ailleurs</a></li>
                         <li><a href="#">Galerie</a></li>
                         <li><a href="#">Contact</a></li>

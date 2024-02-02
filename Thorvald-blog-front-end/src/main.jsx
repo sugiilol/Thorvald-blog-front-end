@@ -9,6 +9,7 @@ import TravelsView from './routes/TravelsView/TravelsView.jsx'
 import HomePageView from './routes/HomePageView/HomePageView.jsx'
 import TravelView from './routes/TravelView/TravelView.jsx'
 import travelsList from "./data/planetsList/planetsList.json"
+import AdventureView from "./routes/AdventureView/AdventureView.jsx"
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <HomePageView />
+      },
+      {
+        path: "aventure",
+        element:<AdventureView />
       },
       {
         path: "voyages",
