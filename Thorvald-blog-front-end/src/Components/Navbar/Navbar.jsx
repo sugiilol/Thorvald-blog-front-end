@@ -24,8 +24,8 @@ export default function Navbar() {
                 <div className='navbar-middle-part'>
                     <ul>
                         <li><Link to={"/"}>Accueil</Link></li>
-                        <li><Link to={"voyages"}>Voyages</Link></li>
-                        <li><Link to={"aventure"}>L'aventure</Link></li>
+                        <li><Link to={"/voyages"}>Voyages</Link></li>
+                        <li><Link to={"/aventure"}>L'aventure</Link></li>
                         <li><a href="#">Cuisine d'ailleurs</a></li>
                         <li><a href="#">Galerie</a></li>
                         <li><a href="#">Contact</a></li>

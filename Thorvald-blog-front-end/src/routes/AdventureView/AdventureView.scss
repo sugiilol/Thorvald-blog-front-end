@@ -1,0 +1,145 @@
+.adventure-container {
+    .adventure-banner {
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+
+    .adventure-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 2em;
+        }
+
+
+        .adventure-who-iam-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+
+            .who-iam-content-left-part {
+                width: 800px;
+                padding-right: 30px;
+            }
+
+            .who-iam-content-right-part {
+                width: 500px;
+                height: 600px;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .adventure-whos-my-pet-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+
+            .whos-my-pet-content-left-part {
+                width: 500px;
+                height: 600px;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .whos-my-pet-content-right-part {
+                width: 800px;
+                padding-left: 30px;
+            }
+        }
+
+        .adventure-outro-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 1000px;
+            margin-bottom: 50px;
+
+            p {
+                text-align: center;
+                font-size: 1.2em;
+            }
+
+            .travelButton {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;     
+                border-radius: 10px;
+                border-color: transparent;
+                background-color: rgb(202, 202, 202);
+                width: 200px;
+                height: 50px;
+                transition: 0.5s;
+                font-size: 1.2em;
+                text-decoration: none;
+                color: black;
+            }
+
+            .travelButton:hover {
+                background-color: rgb(168, 168, 168);
+            }
+        }
+
+        @media screen and (max-width: 1400px) {
+            .adventure-who-iam-content {
+                .who-iam-content-left-part {
+                    width: 55vw;
+                    
+                }
+
+                .who-iam-content-right-part {
+                    width: 35vw;
+                }
+            }
+            .adventure-whos-my-pet-content{
+                .whos-my-pet-content-left-part{
+                    width: 35vw;
+                }
+                .whos-my-pet-content-right-part{
+                    width: 55vw;
+                }
+            }
+            .adventure-outro-content{
+                width: 70vw;
+            }
+        }
+
+        @media screen and (max-width: 950px) {
+            .adventure-who-iam-content {
+                flex-direction: column;
+                .who-iam-content-left-part {
+                    padding-right: 0px;
+                    width: 80vw;
+                }
+
+                .who-iam-content-right-part {
+                     
+                    width: 80vw;
+                }
+            }
+            .adventure-whos-my-pet-content{
+                flex-direction: column;
+                .whos-my-pet-content-left-part{
+                    width: 80vw;
+                }
+                .whos-my-pet-content-right-part{
+                    width: 80vw;
+                    padding-right: 0px;
+                }
+            }
+            .adventure-outro-content{
+                width: 70vw;
+            }
+        }
+    }
+}
