@@ -1,0 +1,16 @@
+.recipeList-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 2.5em;
+    }
+    .recipeList-banner {
+        height: 400px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

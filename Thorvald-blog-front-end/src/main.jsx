@@ -10,6 +10,7 @@ import HomePageView from './routes/HomePageView/HomePageView.jsx'
 import TravelView from './routes/TravelView/TravelView.jsx'
 import travelsList from "./data/planetsList/planetsList.json"
 import AdventureView from "./routes/AdventureView/AdventureView.jsx"
+import RecipesView from './routes/RecipesView/RecipesView.jsx'
 
 const router = createBrowserRouter([
   {
@@ -22,15 +23,11 @@ const router = createBrowserRouter([
         element: <HomePageView />
       },
       {
-        path: "aventure",
-        element:<AdventureView />
-      },
-      {
         path: "voyages",
         element: <TravelsViewTemplate />,
         children: [
           {
-            index:true,
+            index: true,
             element: <TravelsView />,
           },
           {
@@ -43,6 +40,14 @@ const router = createBrowserRouter([
             }
           }
         ]
+      },
+      {
+        path: "aventure",
+        element: <AdventureView />
+      },
+      {
+        path: "cuisine-dailleurs",
+        element: <RecipesView />
       }
     ]
   }
