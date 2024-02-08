@@ -2,8 +2,6 @@ import "./AdventureView.scss"
 import adventureData from "../../data/adventurePageData/adventurePageData.json"
 import { Link } from 'react-router-dom'
 
-console.log(adventureData)
-
 export default function AdventureView() {
     return (
         <div className="adventure-container">

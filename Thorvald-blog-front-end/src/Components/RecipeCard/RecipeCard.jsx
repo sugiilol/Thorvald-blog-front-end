@@ -1,7 +1,6 @@
 import "./RecipeCard.scss"
 
 export default function RecipeCard(props){
-    console.log(props)
     return(
         <div className="recipe-card-container">
             <div className="recipe-card-img" style={{backgroundImage : `url(${props.imgThumb})`}}>
