@@ -1,7 +1,8 @@
 import "./TravelsView.scss"
 import planetsList from "../../data/planetsList/planetsList.json"
 import ItemCard from "../../Components/ItemCard/ItemCard"
-import { Link, Outlet } from "react-router-dom"
+import { Link } from "react-router-dom"
+// import { Outlet } from "react-router-dom"
 
 export default function TravelsView() {
     return (
@@ -36,7 +37,7 @@ export default function TravelsView() {
                     )
                 })}
             </div>
-            <Outlet />
+            {/* <Outlet /> */}
         </>
     )
 }

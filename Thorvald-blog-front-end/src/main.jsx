@@ -9,8 +9,11 @@ import TravelsView from './routes/TravelsView/TravelsView.jsx'
 import HomePageView from './routes/HomePageView/HomePageView.jsx'
 import TravelView from './routes/TravelView/TravelView.jsx'
 import travelsList from "./data/planetsList/planetsList.json"
+import recipeList from "./data/recipesData/recipesData.json"
 import AdventureView from "./routes/AdventureView/AdventureView.jsx"
 import RecipesView from './routes/RecipesView/RecipesView.jsx'
+import RecipeDescriptionsViewTemplate from './routes/RecipeDescriptionsViewTemplate/RecipeDescriptionsViewTemplate.jsx'
+import RecipeDescriptionsView from './routes/RecipeDescriptionsView/RecipeDescriptionsView.jsx'
 
 const router = createBrowserRouter([
   {
@@ -35,7 +38,6 @@ const router = createBrowserRouter([
             element: <TravelView />,
             loader: ({ params }) => {
               const travelById = travelsList.filter((travel) => travel.id == params.travelId)
-              console.log(travelById)
               return travelById
             }
           }
@@ -47,7 +49,21 @@ const router = createBrowserRouter([
       },
       {
         path: "cuisine-dailleurs",
-        element: <RecipesView />
+        element: <RecipeDescriptionsViewTemplate />,
+        children: [
+          {
+            index:true,
+            element: <RecipesView />
+          },
+          {
+            path: ":recipeId",            
+            element: <RecipeDescriptionsView />,
+            loader: ({ params }) => {
+              const recipeById = recipeList.filter((recipe) => recipe.id == params.recipeId)
+              return recipeById
+            }
+          }
+        ]
       }
     ]
   }

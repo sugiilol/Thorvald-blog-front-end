@@ -1,8 +1,10 @@
 import "./RecipesView.scss"
 import RecipeCard from "../../Components/RecipeCard/RecipeCard"
 import recipesData from "../../data/recipesData/recipesData.json"
+import { Link } from 'react-router-dom'
 
-export default function RecipesView() {
+export default function RecipesView() { 
+
     return (
         <div className="recipeList-container">
             <div className="recipeList-banner" style={{ backgroundImage: `url(https://placehold.co/1920x400)` }}>
@@ -16,7 +18,9 @@ export default function RecipesView() {
             <div className="recipe-galery-container">
             {recipesData.map((recipe, index) => {
                 return(
-                    <RecipeCard className="recipe-card" key={index} recipeName={recipe.name} type={recipe.type} imgThumb={recipe.imgThumbnail}/>
+                    <Link key={index} to={`/cuisine-dailleurs/` + recipe.id}>
+                        <RecipeCard className="recipe-card" recipeName={recipe.name} type={recipe.type} imgThumb={recipe.imgThumbnail}/>
+                    </Link>                                   
                 )
             })} 
             </div>                    
