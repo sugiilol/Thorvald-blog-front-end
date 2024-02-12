@@ -18,7 +18,7 @@ export default function RecipesView() {
             <div className="recipe-galery-container">
             {recipesData.map((recipe, index) => {
                 return(
-                    <Link key={index} to={`/cuisine-dailleurs/` + recipe.id}>
+                    <Link key={index} to={`/cuisine-dailleurs/` + recipe.id} className="link-card-recipe">
                         <RecipeCard className="recipe-card" recipeName={recipe.name} type={recipe.type} imgThumb={recipe.imgThumbnail}/>
                     </Link>                                   
                 )
