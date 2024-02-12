@@ -3,54 +3,1170 @@
         "id" : 1,
         "name" : "Startiflette",
         "type" : "Plat Principal",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/burger-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/burger-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasée",
+                "amount": 1 ,
+                "unit": null
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     },
     {
         "id" : 2,
         "name" : "Poulet roti",
         "type" : "Plat Principal",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/poisson-thumbnail-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/poisson-thumbnail-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasées",
+                "amount": 1 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     },
     {
         "id" : 3,
         "name" : "Pate bolognaise",
         "type" : "Plat Principal",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/burger-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/burger-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasées",
+                "amount": 1 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     },
     {
         "id" : 4,
         "name" : "Tomate mozza",
         "type" : "Entrée",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/poulpe-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/poulpe-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasées",
+                "amount": 1 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     },
     {
         "id" : 5,
         "name" : "Baba au Rhum",
         "type" : "dessert",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/bol-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/bol-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasées",
+                "amount": 1 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     },
     {
         "id" : 6,
         "name" : "Tiramisu",
         "type" : "dessert",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/bol-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/bol-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasées",
+                "amount": 1 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     },
     {
         "id" : 7,
         "name" : "Bloody Mary",
         "type" : "Coktail",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/cube-gel-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/cube-gel-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasées",
+                "amount": 1 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     },
     {
         "id" : 8,
         "name" : "Mon cul sur la commode",
         "type" : "Entrée",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/poulpe-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/poulpe-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasées",
+                "amount": 1 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     },
     {
         "id" : 9,
         "name" : "Maujitaw",
         "type" : "Coktail",
-        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/cube-gel-310x270.png"
+        "imgThumbnail" : "/img/imgRecipes/imgRecipesCards/cube-gel-310x270.png",
+        "imgRecipe" : "/img/imgRecipes/imgRecipesDescriptions/wellington800x500.png",
+        "timeToCook": "30 min",
+        "difficulty": "Facile",
+        "budget": "Bon marché",
+        "howManyPeople": "2",
+        "ingredients": [
+            {
+                "name" : "Persil pour décorer",
+                "amount": null ,
+                "unit": null
+            },
+            {
+                "name" : "Sel",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "poivre",
+                "amount": 10 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "Bouillon de boeuf",
+                "amount": 30 ,
+                "unit": "cl"
+            },
+            {
+                "name" : "haricots rouges",
+                "amount": 500 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "chili en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "oignons",
+                "amount": 2 ,
+                "unit": null
+            },
+            {
+                "name" : "beurre",
+                "amount": 50 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "boeuf haché",
+                "amount": 125 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "cumin en poudre",
+                "amount": 1 ,
+                "unit": "Cuillère à café"
+            },
+            {
+                "name" : "Gousse d'ail écrasées",
+                "amount": 1 ,
+                "unit": "gr"
+            },
+            {
+                "name" : "concentré de tomates",
+                "amount": 17 ,
+                "unit": "gr"
+            }
+        ],
+        "ustensiles": [
+            {
+                "name": "Four",
+                "amount" : 1
+            },
+            {
+                "name": "Cocotte",
+                "amount": 1
+            },
+            {
+                "name": "Cuillère en bois",
+                "amount": 1
+            },
+            {
+                "name": "Couvercle",
+                "amount": 1
+            },
+            {
+                "name": "Couteau",
+                "amount": 1
+            },
+            {
+                "name": "Planche à découper",
+                "amount": 1
+            },
+            {
+                "name": "Balance de cuisine",
+                "amount": 1
+            }
+        ],
+        "steps" : [
+            {
+                "name" : "Étape 1",
+                "content" : "Préchauffer le four à 180°C (thermostat 6)."
+            },
+            {
+                "name" : "Étape 2",
+                "content" : "Hacher l'oignon et l'ail."
+            },
+            {
+                "name" : "Étape 3",
+                "content" : "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail."
+            },
+            {
+                "name" : "Étape 4",
+                "content" : "Incorporer le boeuf haché et laisser cuire doucement 10 min."
+            },
+            {
+                "name" : "Étape 5",
+                "content" : "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre."
+            },
+            {
+                "name" : "Étape 6",
+                "content" : "Couvrir et cuire 25 min au four."
+            }
+            
+        ]
     }
 ]
