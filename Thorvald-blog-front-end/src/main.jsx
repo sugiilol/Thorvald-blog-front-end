@@ -60,7 +60,7 @@ const router = createBrowserRouter([
             element: <RecipeDescriptionsView />,
             loader: ({ params }) => {
               const recipeById = recipeList.filter((recipe) => recipe.id == params.recipeId)
-              return recipeById
+              return recipeById[0]
             }
           }
         ]
