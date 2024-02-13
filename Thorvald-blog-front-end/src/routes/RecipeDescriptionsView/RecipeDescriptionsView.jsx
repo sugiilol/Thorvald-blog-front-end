@@ -5,10 +5,11 @@ export default function RecipeDescriptionsView() {
 
     const recipe = useLoaderData();
 
-    const array1 = recipe.ingredients.slice(0, (recipe.ingredients.length / 2))
-    const array2 = recipe.ingredients.slice((recipe.ingredients.length / 2), (recipe.ingredients.length))
-    const ingredientsByColumn = []
-    ingredientsByColumn.push(array2, array1)
+    const ingredientsByColumn = [[], []];
+
+    for (let i = 0; i < recipe.ingredients.length; i++) {
+        ingredientsByColumn[i % 2].push(recipe.ingredients[i]);
+    }
 
     return (
         <div className="recipe-description-container">
