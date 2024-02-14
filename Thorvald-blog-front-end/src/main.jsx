@@ -14,6 +14,8 @@ import AdventureView from "./routes/AdventureView/AdventureView.jsx"
 import RecipesView from './routes/RecipesView/RecipesView.jsx'
 import RecipeDescriptionsViewTemplate from './routes/RecipeDescriptionsViewTemplate/RecipeDescriptionsViewTemplate.jsx'
 import RecipeDescriptionsView from './routes/RecipeDescriptionsView/RecipeDescriptionsView.jsx'
+import GalleryView from './routes/GalleryView/GalleryView.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -52,11 +54,11 @@ const router = createBrowserRouter([
         element: <RecipeDescriptionsViewTemplate />,
         children: [
           {
-            index:true,
+            index: true,
             element: <RecipesView />
           },
           {
-            path: ":recipeId",            
+            path: ":recipeId",
             element: <RecipeDescriptionsView />,
             loader: ({ params }) => {
               const recipeById = recipeList.filter((recipe) => recipe.id == params.recipeId)
@@ -64,6 +66,10 @@ const router = createBrowserRouter([
             }
           }
         ]
+      },
+      {
+        path: "galerie",
+        element: <GalleryView />
       }
     ]
   }
