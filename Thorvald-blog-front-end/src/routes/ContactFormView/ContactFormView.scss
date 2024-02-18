@@ -1,0 +1,42 @@
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    form {
+        padding: 50px;
+        border-radius: 15px;
+        background-color: rgba(221, 221, 221, 0.582);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        input {
+            padding: 10px 15px;
+            border-radius: 7px;
+            border: 0px;
+            transition: 0.7s;
+        }
+
+        input:hover {
+            background-color: rgba(175, 174, 174, 0.425);
+        }
+
+        input:focus{
+            background-color: rgb(175, 174, 174);
+        }
+
+        .submit-button{
+            background-color: rgba(175, 174, 174, 0.425);
+        }
+    }
+}
