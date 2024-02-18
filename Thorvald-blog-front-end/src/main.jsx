@@ -15,6 +15,7 @@ import RecipesView from './routes/RecipesView/RecipesView.jsx'
 import RecipeDescriptionsViewTemplate from './routes/RecipeDescriptionsViewTemplate/RecipeDescriptionsViewTemplate.jsx'
 import RecipeDescriptionsView from './routes/RecipeDescriptionsView/RecipeDescriptionsView.jsx'
 import GalleryView from './routes/GalleryView/GalleryView.jsx'
+import ContactFormView from './routes/ContactFormView/ContactFormView.jsx'
 
 
 const router = createBrowserRouter([
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
       {
         path: "galerie",
         element: <GalleryView />
+      },
+      {
+        path: "contact",
+        element: <ContactFormView />
       }
     ]
   }

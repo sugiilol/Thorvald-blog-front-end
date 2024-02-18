@@ -28,7 +28,7 @@ export default function Navbar() {
                         <li><Link to={"/aventure"}>L'aventure</Link></li>
                         <li><Link to={"/cuisine-dailleurs"}>Cuisine&nbsp;d'ailleurs</Link></li>
                         <li><Link to={"/galerie"}>Galerie</Link></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><Link to={"/contact"}>Contact</Link></li>
                     </ul>
                 </div>
             </div>
