@@ -20,15 +20,19 @@ export default function ContactFormView() {
 
             {/* "handleSubmit" will validate your inputs before invoking "onSubmit"  */}
             <form onSubmit={handleSubmit(onSubmit)}>
+
                 {/* register your input into the hook by invoking the "register" function */}
-                <input defaultValue="test" {...register("example")} />
+                <label htmlFor="">Name</label>
+                <input defaultValue="test" {...register("name", { required: true })} />
 
                 {/* include validation with required or other standard HTML validation rules */}
-                <input {...register("exampleRequired", { required: true })} />
+                <label htmlFor="">Surname</label>
+                <input {...register("Surname", { required: true })} />
+
                 {/* errors will return when field validation fails  */}
                 {errors.exampleRequired && <span>This field is required</span>}
 
-                <input type="submit" className='submit-button'/>
+                <input type="submit" className='submit-button' />
             </form>
         </div>
     )
