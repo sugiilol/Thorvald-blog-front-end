@@ -8,19 +8,25 @@
 
     h1 {
         font-size: 2.5em;
+        margin-bottom: 50px;
     }
 
     form {
         padding: 50px;
         border-radius: 15px;
-        background-color: rgba(221, 221, 221, 0.582);
+        background-color: rgb(221, 221, 221);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 10px;
 
-        input {
+        .contact-zone{
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, select, textarea {
             padding: 10px 15px;
             border-radius: 7px;
             border: 0px;
@@ -37,6 +43,22 @@
 
         .submit-button{
             background-color: rgba(175, 174, 174, 0.425);
+        }
+
+        .contact-header-part{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .contact-middle-part{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            textArea{
+                height: 250px;
+                resize:none
+            }
         }
     }
 }

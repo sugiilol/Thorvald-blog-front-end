@@ -17,22 +17,36 @@ export default function ContactFormView() {
     return (
         <div className='contact-form-container'>
             <h1>Contactez-moi !</h1>
-
-            {/* "handleSubmit" will validate your inputs before invoking "onSubmit"  */}
-            <form onSubmit={handleSubmit(onSubmit)}>
-
-                {/* register your input into the hook by invoking the "register" function */}
-                <label htmlFor="">Name</label>
-                <input defaultValue="test" {...register("name", { required: true })} />
-
-                {/* include validation with required or other standard HTML validation rules */}
-                <label htmlFor="">Surname</label>
-                <input {...register("Surname", { required: true })} />
-
-                {/* errors will return when field validation fails  */}
-                {errors.exampleRequired && <span>This field is required</span>}
-
-                <input type="submit" className='submit-button' />
+            <form onSubmit={handleSubmit(onSubmit)}>      
+                <div className='contact-header-part'>
+                    <div className='contact-zone'>
+                        <label htmlFor="">Nom</label>
+                        <input {...register("name", { required: true })} />
+                        {errors.name && <span>C'est bizare de pas avoir de nom !</span>}   
+                    </div>
+                    <div className='contact-zone'>
+                        <label htmlFor="">Prénom</label>
+                        <input {...register("Surname", { required: true })} />              
+                        {errors.Surname && <span>C'est bizare de pas avoir de prénom !</span>}
+                    </div>  
+                    <div className='contact-zone'>
+                        <label htmlFor="">Genre</label>
+                        <select {...register("gender", { required: true })}>
+                            <option value="male">Homme</option>
+                            <option value="female">Femme</option>
+                            <option value="poney">Poney des Landes</option>
+                        </select>
+                        {errors.gender && <span>Pas de genre ? Les LGBTQ+ en sueur ...</span>}
+                    </div>                 
+                </div>  
+                <div className='contact-middle-part'>
+                    <label htmlFor="">Votre message</label>
+                    <textarea {...register("message", { required: true })}></textarea>
+                    {errors.message && <span>Vous n'avez pas de message ?</span>}
+                </div>  
+                <div className='contact-footer-part'>
+                    <input type="submit" className='submit-button' />
+                </div>               
             </form>
         </div>
     )
