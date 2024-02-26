@@ -20,6 +20,12 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        .error-form{
+            color:red;
+        }
 
         .contact-zone{
             display: flex;
@@ -48,7 +54,13 @@
         .contact-header-part{
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             gap: 20px;
+        }
+        .mail-zone{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
         }
         .contact-middle-part{
             display: flex;

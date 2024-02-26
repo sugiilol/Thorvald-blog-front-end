@@ -6,29 +6,40 @@ export default function ContactFormView() {
     const {
         register,
         handleSubmit,
-        watch,
         formState: { errors },
     } = useForm()
 
-    const onSubmit = (data) => console.log(data)
-
-    console.log(watch("example")) // watch input value by passing the name of it
+    const onSubmit = (data) => {
+        
+        console.log(data)
+    }
+        
 
     return (
         <div className='contact-form-container'>
             <h1>Contactez-moi !</h1>
-            <form onSubmit={handleSubmit(onSubmit)}>      
+            <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='contact-header-part'>
                     <div className='contact-zone'>
                         <label htmlFor="">Nom</label>
-                        <input {...register("name", { required: true })} />
-                        {errors.name && <span>C'est bizare de pas avoir de nom !</span>}   
+                        <input {...register("name", {
+                            required: true,
+                            maxLength: 20,
+                            minLength: 2,
+                            pattern: /[A-Za-z]{2,20}/
+                        },)} />
+                        {errors.name && <span className='error-form'>Nom incorrect</span>}
                     </div>
                     <div className='contact-zone'>
                         <label htmlFor="">Prénom</label>
-                        <input {...register("Surname", { required: true })} />              
-                        {errors.Surname && <span>C'est bizare de pas avoir de prénom !</span>}
-                    </div>  
+                        <input {...register("surname", {
+                            required: true,
+                            maxLength: 20,
+                            minLength: 2,
+                            pattern: /[A-Za-z]{2,20}/
+                        },)} />
+                        {errors.surname && <span className='error-form'>Prénom incorrect</span>}
+                    </div>
                     <div className='contact-zone'>
                         <label htmlFor="">Genre</label>
                         <select {...register("gender", { required: true })}>
@@ -36,17 +47,31 @@ export default function ContactFormView() {
                             <option value="female">Femme</option>
                             <option value="poney">Poney des Landes</option>
                         </select>
-                        {errors.gender && <span>Pas de genre ? Les LGBTQ+ en sueur ...</span>}
-                    </div>                 
-                </div>  
+                        {errors.gender && <span className='error-form'>Pas de genre ?</span>}
+                    </div>
+                </div>
+                <div className='mail-zone'>
+                    <label htmlFor="">Votre mail</label>
+                    <input {...register("mail", {
+                        required: true,
+                        maxLength: 30,
+                        minLength: 4,
+                        pattern: /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/
+                    },)} />
+                    {errors.mail && <span className='error-form'>Mail incorrect</span>}
+                </div>
                 <div className='contact-middle-part'>
                     <label htmlFor="">Votre message</label>
-                    <textarea {...register("message", { required: true })}></textarea>
-                    {errors.message && <span>Vous n'avez pas de message ?</span>}
-                </div>  
+                    <textarea {...register("message", {
+                        required: true,
+                        maxLength: 1000,
+                        minLength: 2
+                    })}></textarea>
+                    {errors.message && <span className='error-form'>Message incorrect</span>}
+                </div>
                 <div className='contact-footer-part'>
                     <input type="submit" className='submit-button' />
-                </div>               
+                </div>
             </form>
         </div>
     )
