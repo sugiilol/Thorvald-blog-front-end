@@ -9,6 +9,10 @@
 
     .rocket-button {
         position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         bottom: 20px;
         right: 50%;
         height: 60px;
@@ -18,6 +22,8 @@
         border-style: solid;
         background-color: transparent;
         transition: 0.5s;
+        text-decoration: none;
+        color: black;
 
         span {
             transform: rotate(-45deg);
