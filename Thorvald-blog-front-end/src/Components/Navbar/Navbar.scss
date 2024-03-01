@@ -73,7 +73,7 @@
         align-items: center;
         justify-content: flex-start;
         background-color: transparent;
-        padding-left: 50px;
+        margin-left: 10px;
 
         .navbar-burger-menu-phone {
             .burger-menu {
@@ -96,7 +96,7 @@
 
             .burger-menu-icon:hover {
                 scale:2;
-                rotate: 270deg;
+                rotate: 90deg;
             }
         }
 
