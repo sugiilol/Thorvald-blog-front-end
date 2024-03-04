@@ -1,5 +1,47 @@
 .navbarMobile-container{
-    width: 300px;
-    height: 600px;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 350px;
+    height: 500px;
+    background-color: #000000ec;
+    position: absolute;
+    margin-top: 0 ;
+    // margin-left: -350px;
+    margin-left: 0;
+    z-index: 5;
+    border-bottom-right-radius: 15px;
+    transition: 1s;
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+          
+        li{
+            a{
+                font-size: 2em; 
+                text-decoration: none;            
+                color: rgb(126, 126, 126);
+                transition:0.5s
+            }
+
+            a:hover{
+                color: rgb(221, 221, 221);
+            }
+
+            #img-drakkar{
+                fill: red !important;
+                width: 150px;
+            }
+              
+        }
+    } 
+}
+
+.navBarMobile-appear{
+    margin-left: 0;
 }

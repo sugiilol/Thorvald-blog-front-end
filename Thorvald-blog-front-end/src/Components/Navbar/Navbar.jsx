@@ -1,6 +1,7 @@
 import './Navbar.scss'
 import { Link } from 'react-router-dom'
 import drakkarLogo from './img/logo-thorvald.svg'
+import NavbarMobile from '../NavbarMobile/NavbarMobile'
 
 export default function Navbar() {
 
@@ -41,6 +42,7 @@ export default function Navbar() {
                     <Link to={"/"}><img src={drakkarLogo} alt="drakkar-logo" /></Link>
                 </div>
             </div>
+            <NavbarMobile />
         </>
     )
 }
