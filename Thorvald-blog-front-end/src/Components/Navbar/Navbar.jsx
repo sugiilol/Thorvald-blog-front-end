@@ -5,17 +5,6 @@ import NavbarMobile from '../NavbarMobile/NavbarMobile'
 
 export default function Navbar() {
 
-    const navbarLink = [
-        {
-            name: "HomePage",
-            link: "/"
-        },
-        {
-            name: "Voyages",
-            link: "/voyages"
-        }
-    ]
-
     return (
         <>
             <div className='navbar-container-desktop'>
@@ -32,17 +21,18 @@ export default function Navbar() {
                     </ul>
                 </div>
             </div>
-            <div className='navbar-container-phone'>
+            {/* Phone part  */}
+            {/* <div className='navbar-container-phone'>
                 <div className='navbar-burger-menu-phone'>
                     <button className='burger-menu'>
-                        <span className="material-symbols-outlined burger-menu-icon">menu</span>
+                        <button><span className="material-symbols-outlined burger-menu-icon">menu</span></button>
                     </button>
                 </div>
                 <div className='navbar-logo-phone'>
                     <Link to={"/"}><img src={drakkarLogo} alt="drakkar-logo" /></Link>
                 </div>
-            </div>
-            <NavbarMobile />
+            </div> */}
+            <NavbarMobile/>
         </>
     )
 }
