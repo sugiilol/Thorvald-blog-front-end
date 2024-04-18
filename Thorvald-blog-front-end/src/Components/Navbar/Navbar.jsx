@@ -13,26 +13,14 @@ export default function Navbar() {
                 </div>
                 <div className='navbar-middle-part'>
                     <ul>
-                        <li><Link to={"/voyages"}>Voyages</Link></li>
                         <li><Link to={"/aventure"}>L'aventure</Link></li>
+                        <li><Link to={"/voyages"}>Voyages</Link></li>
                         <li><Link to={"/cuisine-dailleurs"}>Cuisine&nbsp;d'ailleurs</Link></li>
                         <li><Link to={"/galerie"}>Galerie</Link></li>
-                        <li><Link to={"/contact"}>Contact</Link></li>
                     </ul>
                 </div>
             </div>
-            {/* Phone part  */}
-            {/* <div className='navbar-container-phone'>
-                <div className='navbar-burger-menu-phone'>
-                    <button className='burger-menu'>
-                        <button><span className="material-symbols-outlined burger-menu-icon">menu</span></button>
-                    </button>
-                </div>
-                <div className='navbar-logo-phone'>
-                    <Link to={"/"}><img src={drakkarLogo} alt="drakkar-logo" /></Link>
-                </div>
-            </div> */}
-            <NavbarMobile/>
+            <NavbarMobile />
         </>
     )
 }
