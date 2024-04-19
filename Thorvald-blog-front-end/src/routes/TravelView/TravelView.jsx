@@ -16,11 +16,11 @@ export default function TravelView() {
                         <p>{travel[0].presentationPlanetContent1}</p>
                     </div>
                     <div className="content-right-part">
-                        <img src="https://placehold.co/600x400" alt="placehold" />
+                        <img src={travel[0].pictures1} alt="placehold" />
                     </div>
                 </div>
                 <div className="travelView-transition-part">
-                    <img src="https://placehold.co/1400x600" alt="placehold" />
+                    <img src={travel[0].pictures2} alt="placehold" />
                 </div>
                 <div className="content-detail-planet-part">
                     <h2>{travel[0].titlePresentation}</h2>
