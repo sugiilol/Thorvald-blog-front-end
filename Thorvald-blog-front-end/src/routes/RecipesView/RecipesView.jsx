@@ -7,7 +7,8 @@ export default function RecipesView() {
 
     return (
         <div className="recipeList-container">
-            <div className="recipeList-banner" style={{ backgroundImage: `url(https://placehold.co/1920x400)` }}>
+            {/* <div className="recipeList-banner" style={{ backgroundImage: `url(https://placehold.co/1920x400)` }}> */}
+            <div className="recipeList-banner" style={{ backgroundImage: `url(/img/imgRecipes/imgRecipeBanner/restaurant-1.png)` }}>
             </div>
             <h1>Cuisine D'ailleurs</h1>
             <p>Découvrez un univers culinaire extraordinaire ! Parcourez les recettes exotiques 
