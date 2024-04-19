@@ -1,47 +1,38 @@
 [
     {
         "id": 1,
-        "category": "Voyages",
-        "title": "Destination de Voyage",
-        "content": "L'aventure, c'est le souffle même qui anime mes jours dans la galaxie d'Astrumis.\r\nC'est l'excitation qui étreint mon cœur lorsque je m'élance vers les étoiles, l'émerveillement à chaque rencontre avec une planète inexplorée. Là où les cartes célestes se terminent, mon voyage commence, car l'aventure est bien plus qu'une destination, c'est une quête infinie vers la découverte, la compréhension et la redéfinition constante de ce que signifie être un explorateur de l'espace.\r\nL'aventure, c'est mon hymne intergalactique, une mélodie dont la cadence s'accorde aux pulsations du cœur de l'univers.",
-        "link": "#",
-        "thumbnail": "/img/imgsCategories/voyage-thumbnail.png",
-        "thumbnailAlt": "voyage"
-    },
-    {
-        "id": 2,
-        "category": "Journal de bord",
-        "title": "Journal de bord",
-        "content": "Le \"Journal de bord\" est l'écho de mes voyages intersidéraux sur Astronia, capturant les émotions fugitives, les découvertes éblouissantes et les défis surmontés. \r\nChaque entrée est une tranche de vie dans cette aventure intergalactique, un témoignage personnel de ma quête sans fin pour percer les mystères des confins stellaires.\r\nPlongez dans les pages de mon journal, où chaque mot révèle une parcelle de la magie et de l'intrigue qui m'entourent dans la galaxie d'Astrumis.",
-        "link": "#",
-        "thumbnail": "/img/imgsCategories/book-thumbnail.png",
-        "thumbnailAlt": "journal de bord"
-    },
-    {
-        "id": 3,
         "category": "L'aventure",
         "title": "Ma vision de l'aventure",
         "content": "L'aventure, c'est le souffle même qui anime mes jours dans la galaxie d'Astrumis.\r\nC'est l'excitation qui étreint mon cœur lorsque je m'élance vers les étoiles, l'émerveillement à chaque rencontre avec une planète inexplorée. Là où les cartes célestes se terminent, mon voyage commence, car l'aventure est bien plus qu'une destination, c'est une quête infinie vers la découverte, la compréhension et la redéfinition constante de ce que signifie être un explorateur de l'espace.\r\nL'aventure, c'est mon hymne intergalactique, une mélodie dont la cadence s'accorde aux pulsations du cœur de l'univers.",
-        "link": "#",
+        "link": "/aventure",
         "thumbnail": "/img/imgsCategories/aventure-thumbnail.png",
         "thumbnailAlt": "l'aventure"
     },
     {
-        "id": 4,
+        "id": 2,
+        "category": "Voyages",
+        "title": "Destination de Voyage",
+        "content": "L'aventure, c'est le souffle même qui anime mes jours dans la galaxie d'Astrumis.\r\nC'est l'excitation qui étreint mon cœur lorsque je m'élance vers les étoiles, l'émerveillement à chaque rencontre avec une planète inexplorée. Là où les cartes célestes se terminent, mon voyage commence, car l'aventure est bien plus qu'une destination, c'est une quête infinie vers la découverte, la compréhension et la redéfinition constante de ce que signifie être un explorateur de l'espace.\r\nL'aventure, c'est mon hymne intergalactique, une mélodie dont la cadence s'accorde aux pulsations du cœur de l'univers.",
+        "link": "/voyages",
+        "thumbnail": "/img/imgsCategories/voyage-thumbnail.png",
+        "thumbnailAlt": "voyage"
+    },
+    {
+        "id": 3,
         "category": "Cuisine d'ailleurs",
         "title": "Cuisine d'ailleurs",
         "content": "Bienvenue à bord de mon odyssée gastronomique interstellaire ! \r\nDans cette fascinante rubrique, \"Cuisine d'ailleurs\", je vous invite à découvrir les délices uniques d'Astronia, ma planète natale. Parcourez avec moi les saveurs extraordinaires qui émanent des confins de la galaxie d'Astrumi, laissez-vous transporter vers des expériences gustatives inédites.\r\nChaque plat que je partage raconte une histoire, chaque bouchée est une invitation à explorer les délices de mon monde mystérieux.\r\nPréparez-vous à un festin sensoriel où la cuisine d'Astronia devient le pont vers des horizons inexplorés. \r\n\r\nBienvenue dans mon univers délicieux, bienvenue dans \"Cuisine d'ailleurs\" !",
-        "link": "#",
+        "link": "/cuisine-dailleurs",
         "thumbnail": "/img/imgsCategories/poisson-thumbnail.png",
         "thumbnailAlt": "plat de poisson"
     },
     {
-        "id": 5,
-        "category": "Tutoriels",
-        "title": "Mes tutoriels",
+        "id": 4,
+        "category": "Galerie",
+        "title": "Ma galerie",
         "content": "Bienvenue dans la section \"Tutoriel\" de mon espace dédié à Astronia. \r\nIci, je partage les compétences essentielles pour la vie dans cette galaxie mystique. Des astuces de navigation stellaire aux secrets de la technologie astralienne, chaque guide est une passerelle vers la maîtrise des éléments fondamentaux nécessaires à l'exploration de l'univers infini d'Astrumis. \r\nSuivez mes conseils, et que chaque tutoriel soit une étoile brillante sur votre chemin vers l'expertise intergalactique.",
-        "link": "#",
-        "thumbnail": "/img/imgsCategories/hammer-thumbnail.png",
-        "thumbnailAlt": "tutoriels"
+        "link": "/galerie",
+        "thumbnail": "/img/imgsCategories/book-thumbnail.png",
+        "thumbnailAlt": "livre d'image"
     }
 ]

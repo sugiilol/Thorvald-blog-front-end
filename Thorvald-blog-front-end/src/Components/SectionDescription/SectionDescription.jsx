@@ -1,4 +1,5 @@
 import './SectionDescription.scss'
+import { Link } from 'react-router-dom'
 
 export default function SectionDescription(props) {
 
@@ -12,7 +13,8 @@ export default function SectionDescription(props) {
             <div className='section-description-text-part'>
                 <h2>{props.data.title}</h2>
                 <p>{props.data.content}</p>
-                <a className="button-section-description" href="#">Rubrique " {props.data.category} "</a>
+                {/* <a className="button-section-description" href="#">Rubrique " {props.data.category} "</a> */}
+                <li className="button-section-description"><Link className='link-section-description' to={props.data.link}>{props.data.category}</Link></li>
             </div>
         </div>
     )
